@@ -1,3 +1,4 @@
+#test
 ##GENERAL ALIASES##
 #prompt before removal
 alias rm='rm -i'
