@@ -119,10 +119,18 @@ fi
 
 # Custom Functions
 
+#open colored one piece chapter in chrome
 #usage: onepiece 500
 function onepiece () 
 {
   chrome "https://chap.manganelo.com/manga-jn123881/chapter-$1"
+}
+
+#open original black and white one piece chapter in chrome
+#usage: onepiecebw 500
+function onepiecebw () 
+{
+  chrome "https://mangasee123.com/read-online/One-Piece-chapter-$1.html"
 }
 
 #usage: search hello
