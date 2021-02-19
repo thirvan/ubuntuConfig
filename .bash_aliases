@@ -13,9 +13,6 @@ alias vlc='/mnt/c/"Program Files (x86)"/VideoLAN/VLC/vlc.exe'
 #open chrome
 alias chrome='/mnt/c/"Program Files"/Google/Chrome/Application/chrome.exe'
 
-#do a google search (usage: search this is an example")
-alias search='chrome "? '
-
 #open thirvanxx@gmail.com chrome user
 alias play='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Play.lnk'
 

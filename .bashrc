@@ -124,3 +124,10 @@ function onepiece ()
 {
   chrome "https://chap.manganelo.com/manga-jn123881/chapter-$1"
 }
+
+#usage: search hello
+#       search "what is haha"
+function search ()
+{
+    chrome "? $1"
+}
