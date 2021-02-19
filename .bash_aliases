@@ -3,17 +3,25 @@
 alias rm='rm -i'
 
 ##Git##
+
+#add
 alias ga='git add'
 
+#commit
 alias gc='git commit'
 
+#status
 alias gs='git status'
 
+#log
 alias gl='git log'
 
+#push
 alias gpush='git push'
 
+#pull
 alias gpull='git pull'
+#######
 
 ######################
 
