@@ -1,6 +1,20 @@
 ##GENERAL ALIASES##
 #prompt before removal
 alias rm='rm -i'
+
+##Git##
+alias ga='git add'
+
+alias gc='git commit'
+
+alias gs='git status'
+
+alias gl='git log'
+
+alias gpush='git push'
+
+alias gpull='git pull'
+
 ######################
 
 ##PERSONAL XPS ALIASES##
