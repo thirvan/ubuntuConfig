@@ -23,6 +23,10 @@ alias gpush='git push'
 alias gpull='git pull'
 #######
 
+##Python##
+
+alias py='python3'
+#########
 ######################
 
 ##PERSONAL XPS ALIASES##
