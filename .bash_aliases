@@ -48,14 +48,14 @@ alias work='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Work.lnk'
 #open YouTube in the current chrome user
 alias yt='chrome youtube.com'
 
-#open YouTube histry
+#open YouTube history
 alias yth='chrome https://www.youtube.com/feed/history'
-###thirvanxx@gmail.com user
+###thirvanxx@gmail.com user###
 
 #open YouTube 
 alias ytp='play; chrome youtube.com'
 
-###thirvansomanah@gmail.com user
+###thirvansomanah@gmail.com user###
 
 #open Outlook 
 alias mail='chrome outlook.office365.com/mail/inbox'
