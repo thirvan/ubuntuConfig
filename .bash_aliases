@@ -21,6 +21,9 @@ alias gpush='git push'
 
 #pull
 alias gpull='git pull'
+
+#diff
+alias gd='git diff'
 #######
 
 ##Python##
