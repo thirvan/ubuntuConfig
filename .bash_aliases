@@ -50,6 +50,12 @@ alias yt='chrome youtube.com'
 
 #open YouTube in the thirvanxx@gmail.com user
 alias ytp='play; chrome youtube.com'
+
+#open Outlook 
+alias mail='chrome outlook.office365.com/mail/inbox'
+
+#open Blackboard 
+alias bb='chrome https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1&tabId=_1_1&forwardUrl=index.jsp#'
 #################
 
 ##Spotify##
