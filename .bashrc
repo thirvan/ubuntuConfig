@@ -139,3 +139,10 @@ function search ()
 {
     chrome "? $1"
 }
+
+#usage: searchyt pewdiepie
+#	searchyt "how to use git"
+function searchyt ()
+{
+    chrome "https://www.youtube.com/results?search_query=$1"
+}
