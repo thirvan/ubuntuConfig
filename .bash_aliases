@@ -48,14 +48,24 @@ alias work='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Work.lnk'
 #open YouTube in the current chrome user
 alias yt='chrome youtube.com'
 
-#open YouTube in the thirvanxx@gmail.com user
+#open YouTube histry
+alias yth='chrome https://www.youtube.com/feed/history'
+###thirvanxx@gmail.com user
+
+#open YouTube 
 alias ytp='play; chrome youtube.com'
+
+###thirvansomanah@gmail.com user
 
 #open Outlook 
 alias mail='chrome outlook.office365.com/mail/inbox'
 
 #open Blackboard 
 alias bb='chrome https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1&tabId=_1_1&forwardUrl=index.jsp#'
+
+#open github
+alias hub='chrome https://github.com/thirvan'
+
 #################
 
 ##Spotify##
