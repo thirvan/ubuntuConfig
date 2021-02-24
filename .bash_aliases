@@ -60,9 +60,6 @@ alias ws='chrome https://web.whatsapp.com/'
 #open Gogoanime
 alias gogo='chrome gogoanime.so'
 
-#open nyaa
-alias nyaa='chrome nyaa.si/?s=seeders'
-
 ###thirvanxx@gmail.com user###
 
 #open YouTube 
