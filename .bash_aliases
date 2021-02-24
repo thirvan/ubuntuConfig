@@ -57,6 +57,9 @@ alias yth='chrome https://www.youtube.com/feed/history'
 #open Whatsapp
 alias ws='chrome https://web.whatsapp.com/'
 
+#open Gogoanime
+alias gogo='chrome gogoanime.so'
+
 ###thirvanxx@gmail.com user###
 
 #open YouTube 
@@ -94,4 +97,7 @@ alias down='cd /mnt/c/Users/Thirvan/Downloads'
 
 #change directory to ubuntuShortcuts
 alias short='cd /home/thirvan/ubuntuShortcuts'
+
+#change directory to One Pace
+alias pace='cd /mnt/c/Users/Thirvan/Videos/One\ Pace'
 ######################
