@@ -70,6 +70,9 @@ alias mail='chrome outlook.office365.com/mail/inbox'
 #open Blackboard 
 alias bb='chrome https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1&tabId=_1_1&forwardUrl=index.jsp#'
 
+#open OASIS
+alias oasis='chrome https://oasis.curtin.edu.au/'
+
 #open github
 alias hub='chrome https://github.com/thirvan'
 
