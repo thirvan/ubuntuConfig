@@ -60,6 +60,9 @@ alias ws='chrome https://web.whatsapp.com/'
 #open Gogoanime
 alias gogo='chrome gogoanime.so'
 
+#open nyaa
+alias nyaa='chrome nyaa.si/?s=seeders'
+
 ###thirvanxx@gmail.com user###
 
 #open YouTube 
@@ -83,6 +86,8 @@ alias hub='chrome https://github.com/thirvan'
 
 ##Spotify##
 alias spot='/mnt/c/Users/Thirvan/AppData/Roaming/Spotify/Spotify.exe'
+
+alias spotweb='chrome https://open.spotify.com/'
 ###########
 
 ##File Explorer##
