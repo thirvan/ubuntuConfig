@@ -85,4 +85,10 @@ alias exp='explorer.exe'
 
 #change directory to University OneDrive
 alias one='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/'
+
+#change directory to Downloads
+alias down='cd /mnt/c/Users/Thirvan/Downloads'
+
+#change directory to ubuntuShortcuts
+alias short='cd /home/thirvan/ubuntuShortcuts'
 ######################
