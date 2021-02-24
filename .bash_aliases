@@ -53,6 +53,10 @@ alias yt='chrome youtube.com'
 
 #open YouTube history
 alias yth='chrome https://www.youtube.com/feed/history'
+
+#open Whatsapp
+alias ws='chrome https://web.whatsapp.com/'
+
 ###thirvanxx@gmail.com user###
 
 #open YouTube 
