@@ -73,6 +73,18 @@ alias mail='chrome outlook.office365.com/mail/inbox'
 #open Blackboard 
 alias bb='chrome https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1&tabId=_1_1&forwardUrl=index.jsp#'
 
+#open Digital Principles and Process
+alias dpp='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_115721_1&handle=announcements_entry&mode=view"'
+
+#open Digital Design 1
+alias dd1='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/launcher?type=Course&id=_114737_1&url="'
+
+#open Operating Systems
+alias os='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/launcher?type=Course&id=_115377_1&url="'
+
+#open Unix Systems Programming
+alias usp='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/launcher?type=Course&id=_107054_1&url="'
+
 #open OASIS
 alias oasis='chrome https://oasis.curtin.edu.au/'
 
