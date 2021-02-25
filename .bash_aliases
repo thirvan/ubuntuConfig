@@ -91,6 +91,11 @@ alias oasis='chrome https://oasis.curtin.edu.au/'
 #open github
 alias hub='chrome https://github.com/thirvan'
 
+#open linkedin
+alias in='chrome linkedin.com/feed/'
+
+#open wallet
+alias wallet='chrome https://web.budgetbakers.com/dashboard'
 #################
 
 ##Spotify##
