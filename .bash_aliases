@@ -35,8 +35,6 @@ alias py='python3'
 alias sync='sudo hwclock -s'
 
 #show most used commands
-alias most='history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r'
-
 ######################
 
 ##PERSONAL XPS ALIASES##
