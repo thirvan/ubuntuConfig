@@ -75,6 +75,9 @@ alias ytp='play; chrome youtube.com'
 #open Outlook 
 alias mail='chrome outlook.office365.com/mail/inbox'
 
+#open Outlook calendar
+alias mailcal='chrome https://outlook.office365.com/calendar/view/month'
+
 #open Gmail
 alias gmail='chrome https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox'
 
