@@ -30,6 +30,13 @@ alias gd='git diff'
 
 alias py='python3'
 #########
+
+#sync date
+alias sync='sudo hwclock -s'
+
+#show most used commands
+alias most='history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r'
+
 ######################
 
 ##PERSONAL XPS ALIASES##
@@ -69,6 +76,12 @@ alias ytp='play; chrome youtube.com'
 
 #open Outlook 
 alias mail='chrome outlook.office365.com/mail/inbox'
+
+#open Gmail
+alias gmail='chrome https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox'
+
+#open todo
+alias todo='chrome https://to-do.office.com/tasks/'
 
 #open Blackboard 
 alias bb='chrome https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1&tabId=_1_1&forwardUrl=index.jsp#'
@@ -110,6 +123,10 @@ alias exp='explorer.exe'
 
 #change directory to University OneDrive
 alias one='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/'
+
+#change directory to CTI
+
+alias cti='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI'
 
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
