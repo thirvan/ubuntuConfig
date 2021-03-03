@@ -117,22 +117,23 @@ if ! shopt -oq posix; then
 fi
 
 
-# Custom Functions
+### Custom Functions ###
 
-#open colored one piece chapter in chrome
+#open colored One Piece chapter in chrome
 #usage: onepiece 500
 function onepiece () 
 {
   chrome "https://chap.manganelo.com/manga-jn123881/chapter-$1"
 }
 
-#open original black and white one piece chapter in chrome
+#open original black and white One Piece chapter in chrome
 #usage: onepiecebw 500
 function onepiecebw () 
 {
   chrome "https://mangasee123.com/read-online/One-Piece-chapter-$1.html"
 }
 
+#search something in chrome
 #usage: search hello
 #       search "what is haha"
 function search ()
@@ -140,6 +141,7 @@ function search ()
     chrome "? $1"
 }
 
+#search something on YouTube 
 #usage: searchyt pewdiepie
 #	searchyt "how to use git"
 function searchyt ()
