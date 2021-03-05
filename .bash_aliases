@@ -87,18 +87,7 @@ alias todo='chrome https://to-do.office.com/tasks/'
 #open Blackboard 
 alias bb='chrome https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1&tabId=_1_1&forwardUrl=index.jsp#'
 
-#open Digital Principles and Process
-alias dpp='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_115721_1&handle=announcements_entry&mode=view"'
-
-#open Digital Design 1
-alias dd1='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/launcher?type=Course&id=_114737_1&url="'
-
-#open Operating Systems
-alias os='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/launcher?type=Course&id=_115377_1&url="'
-
-#open Unix Systems Programming
-alias usp='chrome "https://lms.curtin.edu.au/webapps/blackboard/execute/launcher?type=Course&id=_107054_1&url="'
-
+#open
 #open OASIS
 alias oasis='chrome https://oasis.curtin.edu.au/'
 
@@ -126,8 +115,25 @@ alias exp='explorer.exe'
 alias one='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/'
 
 #change directory to CTI
-
 alias cti='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI'
+
+#change directory to Digital Principles and Process
+alias dpp='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/DPP'
+
+#change directory to Digital Design 1
+alias dd='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/DD'
+
+#change directory to perating Systems
+alias os='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/OS'
+
+#change directory to Unix Systems Programming
+alias usp='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/USP'
+
+#change directory to Semester 1 
+alias sem1='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/archive/Semester\ 1'
+
+#change directory to Semester 2 
+alias sem2='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/archive/Semester\ 2'
 
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
@@ -138,3 +144,9 @@ alias short='cd /home/thirvan/ubuntuShortcuts'
 #change directory to One Pace
 alias pace='cd /mnt/c/Users/Thirvan/Videos/One\ Pace'
 ######################
+
+#open this config file in vim
+alias vimconf='vim ~/ubuntuConfig/.bash_aliases'
+
+#change directory to ubuntuConfig
+alias conf='cd ~/ubuntuConfig'
