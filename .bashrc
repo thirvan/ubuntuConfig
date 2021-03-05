@@ -116,6 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#set noclobber option to prevent overwriting existing files with >
+set -o noclobber
 
 ### Custom Functions ###
 
