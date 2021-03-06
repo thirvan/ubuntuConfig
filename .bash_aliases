@@ -107,6 +107,10 @@ alias spot='/mnt/c/Users/Thirvan/AppData/Roaming/Spotify/Spotify.exe'
 alias spotweb='chrome https://open.spotify.com/'
 ###########
 
+##Powerpoint##
+alias power='/mnt/c/Program\ Files/Microsoft\ Office/root/Office16/POWERPNT.EXE'
+##############
+
 ##File Explorer##
 alias exp='explorer.exe'
 #################
