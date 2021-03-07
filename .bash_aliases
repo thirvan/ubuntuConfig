@@ -142,6 +142,9 @@ alias sem2='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technol
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
 
+#change directory to Desktop
+alias desk='cd /mnt/c/Users/Thirvan/Desktop'
+
 #change directory to ubuntuShortcuts
 alias short='cd /home/thirvan/ubuntuShortcuts'
 
