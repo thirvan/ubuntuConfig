@@ -136,19 +136,19 @@ function onepiecebw ()
 }
 
 #search something in chrome
-#usage: search hello
-#       search "what is haha"
+#usage: search what is haha
+#       
 function search ()
 {
     chrome "? $*"
 }
 
 #search something on YouTube 
-#usage: searchyt pewdiepie
-#	searchyt "how to use git"
+#usage: searchyt how to use git
+#
 function searchyt ()
 {
-    chrome "https://www.youtube.com/results?search_query=$1"
+    chrome "https://www.youtube.com/results?search_query=$*"
 }
 
 #usage: nyaa jujutsu 
