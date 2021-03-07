@@ -140,7 +140,7 @@ function onepiecebw ()
 #       search "what is haha"
 function search ()
 {
-    chrome "? $1"
+    chrome "? $*"
 }
 
 #search something on YouTube 
