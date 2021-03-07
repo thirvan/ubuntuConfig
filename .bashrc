@@ -151,11 +151,12 @@ function searchyt ()
     chrome "https://www.youtube.com/results?search_query=$*"
 }
 
-#usage: nyaa jujutsu 
-#   nyaa "shingeki no kyojin"
+#open nyaa.si with the arguments as a search
+#list sorted in descending order of the number of seeders
+#usage: nyaa shingeki no kyojin 
 function nyaa ()
 {
-    chrome "https://nyaa.si/?f=0&c=0_0&q=$1&s=seeders&o=desc"
+    chrome "https://nyaa.si/?f=0&c=0_0&q=$*&s=seeders&o=desc"
 }
 
 #do a commit with a message without needing quotes
