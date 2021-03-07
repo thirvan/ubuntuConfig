@@ -158,3 +158,9 @@ function nyaa ()
     chrome "https://nyaa.si/?f=0&c=0_0&q=$1&s=seeders&o=desc"
 }
 
+#usage: gcm Added feature foobar
+function gcm ()
+{
+        git commit -m "$*"
+}
+
