@@ -158,6 +158,7 @@ function nyaa ()
     chrome "https://nyaa.si/?f=0&c=0_0&q=$1&s=seeders&o=desc"
 }
 
+#do a commit with a message without needing quotes
 #usage: gcm Added feature foobar
 function gcm ()
 {
