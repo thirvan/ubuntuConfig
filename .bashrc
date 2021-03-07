@@ -166,3 +166,15 @@ function gcm ()
         git commit -m "$*"
 }
 
+#run git status for every sem 1 2021 curtin unit
+function ctis ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        for unit in {DD,DPP,OS,USP};
+        do
+                echo -e "\n$unit:";
+                git -C "$path"/$unit status;
+        done
+
+}
