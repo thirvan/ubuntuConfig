@@ -157,3 +157,6 @@ alias vimconf='vim ~/ubuntuConfig/.bash_aliases'
 
 #change directory to ubuntuConfig
 alias conf='cd ~/ubuntuConfig'
+
+#show laptop battery percentage
+alias bat='cat /sys/class/power_supply/BAT1/capacity'
