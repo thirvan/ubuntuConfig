@@ -151,6 +151,13 @@ function searchyt ()
     chrome "https://www.youtube.com/results?search_query=$*"
 }
 
+#search curtin library
+#usage: lib this a search
+function lib ()
+{
+        chrome "https://catalogue.curtin.edu.au/primo-explore/search?tab=default_tab&search_scope=CurtinBlended&vid=CUR_ALMA&lang=en_US&offset=0&query=any,contains,$*"
+}
+
 #open nyaa.si with the arguments as a search
 #list sorted in descending order of the number of seeders
 #usage: nyaa shingeki no kyojin 
