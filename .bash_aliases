@@ -160,3 +160,6 @@ alias conf='cd ~/ubuntuConfig'
 
 #show laptop battery percentage
 alias bat='cat /sys/class/power_supply/BAT1/capacity'
+
+#open screenshots folder
+alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp .; cd -'
