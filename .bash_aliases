@@ -163,3 +163,6 @@ alias bat='cat /sys/class/power_supply/BAT1/capacity'
 
 #open screenshots folder in file explorer
 alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp .; cd -'
+
+#open notepad
+alias note='notepad.exe'
