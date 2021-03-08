@@ -112,7 +112,7 @@ alias power='/mnt/c/Program\ Files/Microsoft\ Office/root/Office16/POWERPNT.EXE'
 ##############
 
 ##File Explorer##
-alias exp='explorer.exe'
+alias exp='explorer.exe .'
 #################
 
 #change directory to University OneDrive
@@ -162,7 +162,7 @@ alias conf='cd ~/ubuntuConfig'
 alias bat='cat /sys/class/power_supply/BAT1/capacity'
 
 #open screenshots folder in file explorer
-alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp .; cd -'
+alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp; cd -'
 
 #open notepad
 alias note='notepad.exe'
