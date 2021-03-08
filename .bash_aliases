@@ -166,3 +166,7 @@ alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp; cd -'
 
 #open notepad
 alias note='notepad.exe'
+
+#open bitwarden
+alias bit='/mnt/c/Program\ Files/Bitwarden/Bitwarden.exe'
+
