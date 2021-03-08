@@ -171,8 +171,8 @@ alias note='notepad.exe'
 alias bit='/mnt/c/Program\ Files/Bitwarden/Bitwarden.exe'
 
 #open Adobe Photoshop
-alias photoshop='/mnt/c/Program\ Files/Adobe/Adobe\ Photoshop\ 2021/Photoshop.exe'
+alias phsp='/mnt/c/Program\ Files/Adobe/Adobe\ Photoshop\ 2021/Photoshop.exe'
 
 #open Adobe InDesign 
-alias indesign='/mnt/c/Program\ Files/Adobe/Adobe\ InDesign\ 2021/InDesign.exe'
+alias idsn='/mnt/c/Program\ Files/Adobe/Adobe\ InDesign\ 2021/InDesign.exe'
 
