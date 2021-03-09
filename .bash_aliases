@@ -68,7 +68,8 @@ alias gogo='chrome gogoanime.so'
 ###thirvanxx@gmail.com user###
 
 #open YouTube 
-alias ytp='play; chrome youtube.com'
+alias ytp='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Youtube.lnk'
+#alias ytp='cmd.exe /c start C:\\Users\\Thirvan\\AppData\Roaming\\Microsoft\Windows\\Start\ Menu\Programs\\Chrome\ Apps\\Youtube.lnk' 
 
 ###thirvansomanah@gmail.com user###
 
@@ -94,6 +95,12 @@ alias oasis='chrome https://oasis.curtin.edu.au/'
 #open github
 alias hub='chrome https://github.com/thirvan'
 
+#open github issues page for ubuntuConfig
+alias hubissues='chrome https://github.com/thirvan/ubuntuConfig/issues'
+
+#create new issue in the ubuntuConfig repo
+alias issue='chrome https://github.com/thirvan/ubuntuConfig/issues/new'
+
 #open linkedin
 alias in='chrome linkedin.com/feed/'
 
@@ -112,32 +119,32 @@ alias power='/mnt/c/Program\ Files/Microsoft\ Office/root/Office16/POWERPNT.EXE'
 ##############
 
 ##File Explorer##
-alias exp='explorer.exe .'
+#alias exp='explorer.exe .'
 #################
 
 #change directory to University OneDrive
-alias one='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/'
+alias one='cd ~/one'
 
 #change directory to CTI
-alias cti='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI'
+alias cti='cd ~/one/CTI'
 
 #change directory to Digital Principles and Process
-alias dpp='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/DPP'
+alias dpp='cd ~/one/CTI/dpp'
 
 #change directory to Digital Design 1
-alias dd='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/DD'
+alias dd='cd ~/one/CTI/dd' 
 
 #change directory to perating Systems
-alias os='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/OS'
+alias os='cd ~/one/CTI/os' 
 
 #change directory to Unix Systems Programming
-alias usp='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/USP'
+alias usp='cd ~/one/CTI/usp'
 
 #change directory to Semester 1 
-alias sem1='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/archive/Semester\ 1'
+alias sem1='cd ~/one/CTI/archive/Semester\ 1' 
 
 #change directory to Semester 2 
-alias sem2='cd /mnt/c/Users/Thirvan/Onedrive\ -\ Curtin\ University\ of\ Technology\ Australia/CTI/archive/Semester\ 2'
+alias sem2='cd ~/one/CTI/archive/Semester\ 2' 
 
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
@@ -154,6 +161,9 @@ alias pace='cd /mnt/c/Users/Thirvan/Videos/One\ Pace'
 
 #open this config file in vim
 alias vimconf='vim ~/ubuntuConfig/.bash_aliases'
+
+#open ~/ubuntuConfig/.bashrc
+alias vimfunc='vim ~/ubuntuConfig/.bashrc'
 
 #change directory to ubuntuConfig
 alias conf='cd ~/ubuntuConfig'
