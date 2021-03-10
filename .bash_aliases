@@ -90,10 +90,10 @@ alias oasis='chrome https://oasis.curtin.edu.au/'
 alias hub='chrome https://github.com/thirvan'
 
 #open github issues page for ubuntuConfig
-alias hubissues='chrome https://github.com/thirvan/ubuntuConfig/issues'
+alias issues='chrome https://github.com/thirvan/ubuntuConfig/issues'
 
 #create new issue in the ubuntuConfig repo
-alias issue='chrome https://github.com/thirvan/ubuntuConfig/issues/new'
+alias newissue='chrome https://github.com/thirvan/ubuntuConfig/issues/new'
 
 #open linkedin
 alias in='chrome linkedin.com/feed/'
