@@ -185,3 +185,29 @@ function ctis ()
         done
 
 }
+
+#open a unix path in explorer.exe
+function exp ()
+{
+        oldpath=$PWD;
+        if [ $# -eq 0 ]
+        then
+            explorer.exe .;
+        else
+            cd $1;
+            explorer.exe .;
+            cd "$oldpath"
+        fi
+}
+
+#open the YouTube pwa and search yt if there is an argument in thirvanxx@gmail.com user
+function ytp ()
+{
+        if [ $# -eq 0 ]
+        then
+                cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Youtube.lnk;
+        else
+                play;
+                searchyt $*;
+        fi
+}
