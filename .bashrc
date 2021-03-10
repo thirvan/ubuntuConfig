@@ -116,6 +116,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+#Set umask mode
+umask 0077
 #set noclobber option to prevent overwriting existing files with >
 set -o noclobber
 
