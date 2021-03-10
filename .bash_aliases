@@ -65,12 +65,6 @@ alias ws='chrome https://web.whatsapp.com/'
 #open Gogoanime
 alias gogo='chrome gogoanime.so'
 
-###thirvanxx@gmail.com user###
-
-#open YouTube 
-alias ytp='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Youtube.lnk'
-#alias ytp='cmd.exe /c start C:\\Users\\Thirvan\\AppData\Roaming\\Microsoft\Windows\\Start\ Menu\Programs\\Chrome\ Apps\\Youtube.lnk' 
-
 ###thirvansomanah@gmail.com user###
 
 #open Outlook 
@@ -123,7 +117,7 @@ alias power='/mnt/c/Program\ Files/Microsoft\ Office/root/Office16/POWERPNT.EXE'
 #################
 
 #change directory to University OneDrive
-alias one='cd ~/one'
+alias one='cd /mnt/c/Users/Thirvan/OneDrive\ -\ Curtin\ University\ of\ Technology\ Australia/' 
 
 #change directory to CTI
 alias cti='cd ~/one/CTI'
