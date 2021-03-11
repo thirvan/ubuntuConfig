@@ -245,6 +245,17 @@ function dpps ()
         git -C "$path"/$unit status -sb;
 }
 
+#run git fetch and status -sb for ubuntuConfig
+function confs()
+{
+        path="/home/thirvan/ubuntuConfig"
+
+        echo -e "\nubuntuConfig:";
+        git -C "$path" fetch;
+        git -C "$path" status -sb;
+}
+
+#
 #open a unix path in explorer.exe
 function exp ()
 {
