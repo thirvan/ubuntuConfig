@@ -2,6 +2,8 @@
 #prompt before removal
 alias rm='rm -i'
 
+#list with sizes in human readable format
+alias lss='ls -sh'
 ##Git##
 
 #add
@@ -18,6 +20,9 @@ alias gl='git log'
 
 #push
 alias gpush='git push'
+
+#fetch
+alias gf='git fetch'
 
 #pull
 alias gpull='git pull'
@@ -133,6 +138,9 @@ alias os='cd ~/one/CTI/os'
 
 #change directory to Unix Systems Programming
 alias usp='cd ~/one/CTI/usp'
+
+#change directory to Unix Systems Programming (unix repo)
+alias uusp='cd ~/unix/USP'
 
 #change directory to Semester 1 
 alias sem1='cd ~/one/CTI/archive/Semester\ 1' 
