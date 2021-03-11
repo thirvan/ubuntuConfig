@@ -4,6 +4,10 @@ alias rm='rm -i'
 
 #list with sizes in human readable format
 alias lss='ls -sh'
+
+#put space after sudo to check if next command is an alias
+alias sudo='sudo '
+
 ##Git##
 
 #add
