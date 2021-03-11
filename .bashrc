@@ -176,7 +176,7 @@ function gcm ()
         git commit -m "$*"
 }
 
-#run git status for every sem 1 2021 curtin unit
+#run git status -sb for every sem 1 2021 curtin unit
 function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
@@ -184,9 +184,65 @@ function ctis ()
         for unit in {DD,DPP,OS,USP};
         do
                 echo -e "\n$unit:";
-                git -C "$path"/$unit status;
+                git -C "$path"/$unit status -sb;
         done
 
+}
+
+#run git fetch and status -sb for Operating Systems 
+function oss ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        unit=OS;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
+}
+
+#run git fetch and status -sb for Unix Systems Programming 
+function usps ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        unit=USP;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
+}
+
+#run git fetch and status -sb for Unix Systems Programming (unix repo)
+function uusps ()
+{
+        path="/home/thirvan/unix"
+
+        unit=USP;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
+}
+
+#
+#run git fetch and status -sb for Digital Design 1
+function dds ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        unit=DD;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
+}
+
+#run git fetch and status -sb for Design Principles and Process 
+function dpps ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        unit=DPP;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
 }
 
 #open a unix path in explorer.exe
