@@ -8,8 +8,6 @@ alias lss='ls -sh'
 #put space after sudo to check if next command is an alias
 alias sudo='sudo '
 
-#exclude other filesystems when using find
-alias findx='find -mount'
 ##Git##
 
 #add
