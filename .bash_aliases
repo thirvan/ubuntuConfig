@@ -1,4 +1,7 @@
 ##GENERAL ALIASES##
+
+#source .bash_profile
+alias br='source ~/.bash_profile'
 #prompt before removal
 alias rm='rm -i'
 
