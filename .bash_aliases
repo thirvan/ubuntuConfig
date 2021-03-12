@@ -19,6 +19,8 @@ alias gc='git commit'
 #status
 alias gs='git status'
 
+#status branch in short
+alias gss='git status -sb'
 #log
 alias gl='git log'
 
