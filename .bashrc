@@ -184,7 +184,7 @@ function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {DD,DPP,OS,USP};
+        for unit in {DD,DPP,OS,USP,archive/Code/ubuntuConfig};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/$unit status -sb;
