@@ -2,8 +2,8 @@
 
 #source .bash_profile
 alias br='source ~/.bash_profile'
-#prompt before removal
-alias rm='rm -i'
+#prompt before removal and verbose
+alias rm='rm -iv'
 
 #list with sizes in human readable format
 alias lss='ls -sh'
@@ -156,6 +156,9 @@ alias sem1='cd ~/one/CTI/archive/Semester\ 1'
 
 #change directory to Semester 2 
 alias sem2='cd ~/one/CTI/archive/Semester\ 2' 
+
+#change directory to Unix and C Programming
+alias ucp='cd ~/one/CTI/archive/Semester\ 2/UCP'
 
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
