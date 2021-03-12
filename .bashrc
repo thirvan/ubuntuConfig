@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=100000000
+HISTFILESIZE=100000000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -121,6 +121,9 @@ fi
 umask 0077
 #set noclobber option to prevent overwriting existing files with >
 set -o noclobber
+#prevent history substitution to be executed immediately
+shopt -s histverify
+
 
 ### Custom Functions ###
 
@@ -281,3 +284,4 @@ function ytp ()
                 searchyt $*;
         fi
 }
+
