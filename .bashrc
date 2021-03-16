@@ -285,3 +285,20 @@ function ytp ()
         fi
 }
 
+#open the USP Workshop directory at for the specified week
+function uspwork ()
+{
+    usp;
+    cd Workshop;
+    cd Workshop\ $1;
+}
+
+#open the unix USP Workshop directory at for the specified week
+function uuspwork ()
+{
+    uusp;
+    cd Workshop;
+    cd Workshop\ $1;
+}
+
+
