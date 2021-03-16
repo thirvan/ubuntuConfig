@@ -286,7 +286,7 @@ function ytp ()
 }
 
 #open the USP Workshop directory at for the specified week
-function uspwork ()
+function uspw()
 {
     usp;
     cd Workshop;
@@ -294,7 +294,7 @@ function uspwork ()
 }
 
 #open the unix USP Workshop directory at for the specified week
-function uuspwork ()
+function uuspw()
 {
     uusp;
     cd Workshop;
