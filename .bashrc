@@ -192,6 +192,20 @@ function ctis ()
 
 }
 
+#run git fetch and status -sb for every sem 1 2021 curtin unit
+function ctiss ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        for unit in {DD,DPP,OS,USP,archive/Code/ubuntuConfig};
+        do
+                echo -e "\n$unit:";
+                git -C "$path"/$unit fetch;
+                git -C "$path"/$unit status -sb;
+        done
+
+}
+
 #run git fetch and status -sb for Operating Systems 
 function oss ()
 {
