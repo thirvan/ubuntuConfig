@@ -123,13 +123,13 @@ alias usp='cd ~/cti/usp'
 ######################
 
 #open this config file in vim
-alias vimconf='vim ~/ubuntuConfig/.bash_aliases'
+alias vimconf='vim ~/.bash_aliases'
 
 #open ~/ubuntuConfig/.bashrc
-alias vimfunc='vim ~/ubuntuConfig/.bashrc'
+alias vimfunc='vim ~/.bashrc'
 
-#change directory to ubuntuConfig
-alias conf='cd ~/ubuntuConfig'
+#change directory to vmconfig 
+alias conf='cd ~/ubuntuConfig/vmconfig/'
 
 #show laptop battery percentage
 alias bat='cat /sys/class/power_supply/BAT0/capacity'
