@@ -203,3 +203,5 @@ alias idsn='/mnt/c/Program\ Files/Adobe/Adobe\ InDesign\ 2021/InDesign.exe'
 #open Ubuntu 20.04 in VirtualBox
 alias virtual='/mnt/c/Program\ Files/Oracle/VirtualBox/VirtualBoxVM.exe --startvm Ubuntu\ 20.04'
 
+#run speedtest by Ookla
+alias speed='speedtest'
