@@ -200,6 +200,9 @@ alias phsp='/mnt/c/Program\ Files/Adobe/Adobe\ Photoshop\ 2021/Photoshop.exe'
 #open Adobe InDesign 
 alias idsn='/mnt/c/Program\ Files/Adobe/Adobe\ InDesign\ 2021/InDesign.exe'
 
+#open Adobe Acrobat DC
+alias acro='/mnt/c/Program\ Files\ \(x86\)/Adobe/Acrobat\ DC/Acrobat/Acrobat.exe'
+
 #open Ubuntu 20.04 in VirtualBox
 alias virtual='/mnt/c/Program\ Files/Oracle/VirtualBox/VirtualBoxVM.exe --startvm Ubuntu\ 20.04'
 
