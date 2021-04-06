@@ -33,8 +33,10 @@ set comments=sl:/*,mb:\ *,elx:\ */
 "
 " in normal mode remap Esc to jk
 inoremap jk <Esc> 
+inoremap JK <Esc> 
 " in visual mode remap Esc to jk
 vnoremap jk <Esc>
+vnoremap JK <Esc>
 " in normal, insert and visual mode Tab and S-Tab indent
 nnoremap <Tab> >>_
 nnoremap <S-Tab> <<_

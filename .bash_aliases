@@ -210,4 +210,4 @@ alias virtual='/mnt/c/Program\ Files/Oracle/VirtualBox/VirtualBoxVM.exe --startv
 alias speed='speedtest'
 
 #create a template of a make file in current directory
-alias makeh='cp ~/makedir/make maketemp; chmod 700 maketemp'
+alias makeh='cp ~/makedir/make MakeFiletemp; chmod 700 MakeFiletemp'
