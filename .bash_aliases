@@ -33,6 +33,9 @@ alias gpush='git push'
 #fetch
 alias gf='git fetch'
 
+#merge
+alias gm='git merge'
+
 #pull
 alias gpull='git pull'
 
