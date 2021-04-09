@@ -173,7 +173,16 @@ alias desk='cd /mnt/c/Users/Thirvan/Desktop'
 alias short='cd /home/thirvan/ubuntuShortcuts'
 
 #change directory to recordings
-alias rec='cd ~/one/CTI/recordings'
+alias rec='cd ~/one/cti/recordings'
+
+#change directory to dpp recordings
+alias recdpp='cd ~/one/CTI/recordings/DPP'
+
+#change directory to usp recordings
+alias recusp='cd ~/one/CTI/recordings/USP'
+
+#change directory to os recordings
+alias recos='cd ~/one/CTI/recordings/OS'
 
 #
 #change directory to One Pace
