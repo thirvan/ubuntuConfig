@@ -172,9 +172,14 @@ alias desk='cd /mnt/c/Users/Thirvan/Desktop'
 #change directory to ubuntuShortcuts
 alias short='cd /home/thirvan/ubuntuShortcuts'
 
+#change directory to recordings
+alias rec='cd ~/one/CTI/recordings'
+
+#
 #change directory to One Pace
 alias pace='cd /mnt/c/Users/Thirvan/Videos/One\ Pace'
-######################
+
+#####################
 
 #open this config file in vim
 alias vimconf='vim ~/ubuntuConfig/.bash_aliases'
