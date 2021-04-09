@@ -315,4 +315,10 @@ function uuspw()
     cd Workshop\ $1;
 }
 
-
+#open the OS Workshop directory at for the specified week
+function osw()
+{
+    os;
+    cd Workshop;
+    cd Workshop\ $1;
+}
