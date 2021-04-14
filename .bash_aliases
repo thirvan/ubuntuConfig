@@ -227,4 +227,7 @@ alias virtual='/mnt/c/Program\ Files/Oracle/VirtualBox/VirtualBoxVM.exe --startv
 alias speed='speedtest'
 
 #create a template of a make file in current directory
-alias makeh='cp ~/makedir/make makeh'
+alias makeh='cp ~/ubuntuConfig/templates/makedir/make makeh'
+
+#create a directory containing a Makefile and a basic C program
+alias cprogh='cp -r ~/ubuntuConfig/templates/cprogdir .'
