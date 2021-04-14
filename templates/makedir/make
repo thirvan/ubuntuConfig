@@ -1,0 +1,30 @@
+CC = gcc
+LD = gcc
+CFLAGS = -g -Wall -ansi -pedantic -Werror
+LFLAGS = -lm -s
+SRCS = 
+RM = /bin/rm -f
+OBJ = 
+EXEC =
+
+$(EXEC): $(OBJ)
+	$(LD) $(LFLAGS) $(OBJ) -o $(EXEC)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	$(RM) $(EXEC) $(OBJ)
+
+.depend:
+	touch $@
+
+depend:
+	$(RM) .depend
+	makedepend -f- -- $(CFLAGS) -- $(SRCS) > .depend
+
+run:
+	./$(EXEC)
+
+include .depend
+
