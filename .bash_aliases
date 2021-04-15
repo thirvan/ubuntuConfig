@@ -49,7 +49,7 @@ alias py='python3'
 #########
 
 #sync date
-alias sync='sudo hwclock -s'
+alias sync='echo "sudo hwclock (synchronise date)"; sudo hwclock -s'
 
 #show most used commands
 ######################
