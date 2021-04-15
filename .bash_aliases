@@ -2,6 +2,7 @@
 
 #source .bash_profile
 alias br='source ~/.bash_profile'
+
 #prompt before removal and verbose
 alias rm='rm -iv'
 
@@ -10,6 +11,9 @@ alias lss='ls -sh'
 
 #put space after sudo to check if next command is an alias
 alias sudo='sudo '
+
+#make diff output with color on the terminal
+alias diff='diff --color=auto'
 
 ##Git##
 
