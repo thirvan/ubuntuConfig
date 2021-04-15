@@ -322,3 +322,11 @@ function osw()
     cd Workshop;
     cd Workshop\ $1;
 }
+
+#open the DPP Workshop directory at for the specified week
+function dppw()
+{
+    dpp;
+    cd Workshop;
+    cd Workshop\ $1;
+}
