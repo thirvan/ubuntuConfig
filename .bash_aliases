@@ -23,6 +23,9 @@ alias ga='git add'
 #commit
 alias gc='git commit'
 
+#edit last commit message
+alias gca='git commit --amend'
+
 #status
 alias gs='git status'
 
