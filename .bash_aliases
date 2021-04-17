@@ -7,7 +7,7 @@ alias br='source ~/.bash_profile'
 alias rm='rm -iv'
 
 #list with sizes in human readable format
-alias lss='ls -sh'
+alias lss='ls -lsh'
 
 #put space after sudo to check if next command is an alias
 alias sudo='sudo '
