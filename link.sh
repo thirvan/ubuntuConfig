@@ -7,3 +7,6 @@ cp ~/.bash_profile ~/configBAK/.bash_profile.bak
 cp ~/.vimrc ~/configBAK/.vimrc.bak
 
 ln -s $(pwd)/.bashrc ~/.
+ln -s $(pwd)/.bash_aliases ~/.
+ln -s $(pwd)/.bash_profile ~/.
+ln -s $(pwd)/.vimrc ~/.
