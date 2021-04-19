@@ -15,6 +15,8 @@ alias sudo='sudo '
 #make diff output with color on the terminal
 alias diff='diff --color=auto'
 
+#use batcat (clone of cat) 
+alias bat='batcat'
 ##Git##
 
 #add
