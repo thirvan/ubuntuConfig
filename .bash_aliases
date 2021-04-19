@@ -17,6 +17,9 @@ alias diff='diff --color=auto'
 
 #use batcat (clone of cat) 
 alias bat='batcat'
+
+#enable sl to be stopped by ^C
+alias sl='sl -e'
 ##Git##
 
 #add
