@@ -20,6 +20,9 @@ alias diff='diff --color=auto'
 #add
 alias ga='git add'
 
+#restore
+alias gr='git restore'
+
 #commit
 alias gc='git commit'
 
@@ -207,7 +210,7 @@ alias vimfunc='vim ~/ubuntuConfig/.bashrc'
 alias conf='cd ~/ubuntuConfig'
 
 #show laptop battery percentage
-alias bat='cat /sys/class/power_supply/BAT1/capacity'
+alias battery='cat /sys/class/power_supply/BAT1/capacity'
 
 #open screenshots folder in file explorer
 alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp; cd -'
