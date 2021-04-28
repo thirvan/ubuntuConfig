@@ -169,8 +169,6 @@ function gacm ()
 {
     git add "$1"
     git commit -m "${*:2}"
-#    git add "$1"
-#    git commit -m "${@:2}"
 }
 
 #open nyaa.si with the arguments as a search
