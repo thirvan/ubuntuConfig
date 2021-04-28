@@ -27,7 +27,7 @@ run:
 	./$(EXEC)
 
 val:
-    valgrind --leak-check=full --track-origins=yes ./$(EXEC)
+	valgrind --leak-check=full --track-origins=yes ./$(EXEC)
 
 include .depend
 
