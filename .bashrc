@@ -164,6 +164,15 @@ function lib ()
         chrome "https://catalogue.curtin.edu.au/primo-explore/search?tab=default_tab&search_scope=CurtinBlended&vid=CUR_ALMA&lang=en_US&offset=0&query=any,contains,$*"
 }
 
+#git add first word and git commit with following words as message
+function gacm ()
+{
+    git add "$1"
+    git commit -m "${*:2}"
+#    git add "$1"
+#    git commit -m "${@:2}"
+}
+
 #open nyaa.si with the arguments as a search
 #list sorted in descending order of the number of seeders
 #usage: nyaa shingeki no kyojin 
