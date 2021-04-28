@@ -169,6 +169,9 @@ alias usp='cd ~/one/CTI/usp'
 #change directory to Unix Systems Programming (unix repo)
 alias uusp='cd ~/unix/USP'
 
+#change directory to Operating Systems Assignment (unix repo)
+alias osa='cd ~/unix/OSA'
+
 #change directory to Semester 1 
 alias sem1='cd ~/one/CTI/archive/Semester\ 1' 
 
