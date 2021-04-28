@@ -217,6 +217,18 @@ function oss ()
         git -C "$path"/$unit status -sb;
 }
 
+#run git fetch and status -sb for Operating Systems Assignment in unix repo
+function osas ()
+{
+        path="/home/thirvan/unix";
+
+        unit=OSA;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
+}
+
+
 #run git fetch and status -sb for Unix Systems Programming 
 function usps ()
 {
