@@ -32,14 +32,14 @@ set comments=sl:/*,mb:\ *,elx:\ */
 " Enhanced keyboard mappings
 "
 " in normal mode remap Esc to jk
-inoremap jk <Esc> 
-inoremap JK <Esc> 
+inoremap jk <C-[>
+inoremap JK <C-[>
 " in visual mode remap Esc to jk
-vnoremap jk <Esc>
-vnoremap JK <Esc>
+vnoremap jk <C-[>
+vnoremap JK <C-[>
 " in normal, insert and visual mode Tab and S-Tab indent
 nnoremap <Tab> >>_
-nnoremap <S-Tab> <<_
+    nnoremap <S-Tab> <<_
 inoremap <S-Tab> <C-D>
 noremap <s-tab> <gv
 vnoremap <Tab> >gv
