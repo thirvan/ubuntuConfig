@@ -79,6 +79,9 @@ alias vlc='/mnt/c/"Program Files (x86)"/VideoLAN/VLC/vlc.exe'
 #open chrome
 alias chrome='/mnt/c/"Program Files"/Google/Chrome/Application/chrome.exe'
 
+#open firefox 
+alias fire='/mnt/c/"Program Files"/"Mozilla Firefox"/firefox.exe'
+
 #open thirvanxx@gmail.com chrome user
 alias play='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Play.lnk'
 
@@ -225,6 +228,15 @@ alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp; cd -'
 
 #open notepad
 alias note='notepad.exe'
+
+#open Google Keep pwa
+alias keep='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Keep.lnk'
+
+#open Google TasksBoard pwa
+alias tasks='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\TasksBoard.lnk'
+
+#open Google Calendar pwa
+alias cal='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Calendar.lnk'
 
 #open bitwarden
 alias bit='/mnt/c/Program\ Files/Bitwarden/Bitwarden.exe'
