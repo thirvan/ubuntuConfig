@@ -114,9 +114,6 @@ alias gmail='chrome https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox'
 #open todo
 alias todo='chrome https://to-do.office.com/tasks/'
 
-#open Blackboard 
-alias bb='chrome https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1&tabId=_1_1&forwardUrl=index.jsp#'
-
 #open
 #open OASIS
 alias oasis='chrome https://oasis.curtin.edu.au/'
@@ -237,6 +234,10 @@ alias tasks='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\TasksBoard.lnk'
 
 #open Google Calendar pwa
 alias cal='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Calendar.lnk'
+
+#open BlackBoard pwa
+alias bb='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Blackboard.lnk'
+
 
 #open bitwarden
 alias bit='/mnt/c/Program\ Files/Bitwarden/Bitwarden.exe'
