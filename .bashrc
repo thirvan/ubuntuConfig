@@ -306,7 +306,7 @@ function exp ()
         fi
 }
 
-#open the YouTube pwa and search yt if there is an argument in thirvanxx@gmail.com user
+#open the YouTube pwa or search yt if there is an argument in thirvanxx@gmail.com user
 function ytp ()
 {
         if [ $# -eq 0 ]
