@@ -1,7 +1,8 @@
 CC = gcc
 LD = gcc
 CFLAGS = -g -Wall -ansi -pedantic -Werror
-LFLAGS = -lm -s
+LFLAGS = -lm -g
+VFLAGS = --leak-check=full --track-origins=yes --show-leak-kinds=all -s
 SRCS = main.c
 RM = /bin/rm -f
 OBJ = main.o
@@ -25,6 +26,9 @@ depend:
 
 run:
 	./$(EXEC)
+
+val:
+	valgrind $(VFLAGS)  ./$(EXEC)
 
 include .depend
 
