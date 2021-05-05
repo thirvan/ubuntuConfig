@@ -102,9 +102,6 @@ alias gogo='chrome gogoanime.so'
 
 ###thirvansomanah@gmail.com user###
 
-#open Outlook 
-alias mail='chrome outlook.office365.com/mail/inbox'
-
 #open Outlook calendar
 alias mailcal='chrome https://outlook.office365.com/calendar/view/month'
 
@@ -237,6 +234,10 @@ alias cal='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Calendar.lnk'
 
 #open BlackBoard pwa
 alias bb='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Blackboard.lnk'
+
+#open Outlook mail pwa
+alias mail='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Outlook.lnk'
+
 
 
 #open bitwarden
