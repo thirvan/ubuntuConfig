@@ -169,6 +169,9 @@ alias uusp='cd ~/unix/USP'
 #change directory to Operating Systems Assignment (unix repo)
 alias osa='cd ~/unix/OSA'
 
+#change directory to Unix Systems Programming Assignment (unix repo)
+alias uspa='cd ~/unix/USPA'
+
 #change directory to Semester 1 
 alias sem1='cd ~/one/CTI/archive/Semester\ 1' 
 
@@ -183,6 +186,9 @@ alias down='cd /mnt/c/Users/Thirvan/Downloads'
 
 #change directory to Desktop
 alias desk='cd /mnt/c/Users/Thirvan/Desktop'
+
+#change directory to Videos 
+alias videos='cd /mnt/c/Users/Thirvan/Videos'
 
 #change directory to ubuntuShortcuts
 alias short='cd /home/thirvan/ubuntuShortcuts'
