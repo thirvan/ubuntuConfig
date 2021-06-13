@@ -29,6 +29,7 @@ set showmatch
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
 
+set incsearch
 " Enhanced keyboard mappings
 "
 " in normal mode remap Esc to jk
