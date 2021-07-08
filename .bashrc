@@ -350,6 +350,14 @@ function dppw()
     cd Workshop\ $1;
 }
 
+#open the cs50 problem set directory of the specified week
+function csp()
+{
+    cs;
+    cd pset$1;
+}
+
+
 #colorman pages
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
