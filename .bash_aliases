@@ -181,6 +181,9 @@ alias sem2='cd ~/one/CTI/archive/Semester\ 2'
 #change directory to Unix and C Programming
 alias ucp='cd ~/one/CTI/archive/Semester\ 2/UCP'
 
+#change directory to cs50
+alias cs='cd ~/cs50' 
+
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
 
