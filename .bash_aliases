@@ -184,6 +184,8 @@ alias ucp='cd ~/one/CTI/archive/Semester\ 2/UCP'
 #change directory to cs50
 alias cs='cd ~/cs50' 
 
+alias http-server='http_server'
+
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
 
