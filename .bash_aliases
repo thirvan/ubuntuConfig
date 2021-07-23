@@ -56,6 +56,9 @@ alias gpull='git pull'
 
 #diff
 alias gd='git diff'
+
+#diff staged files
+alias gds='git diff --staged'
 #######
 
 ##Python##
