@@ -45,8 +45,13 @@ alias gs='git status'
 
 #status branch in short
 alias gss='git status -sb'
+
 #log
 alias gl='git log'
+
+#log only first commit line
+alias glo='git log --oneline'
+
 
 #push
 alias gpush='git push'
