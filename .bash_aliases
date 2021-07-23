@@ -63,9 +63,15 @@ alias gpull='git pull'
 #diff
 alias gd='git diff'
 
+#diff with only words colored 
+alias gdcw='git diff --color-words'
+
 #diff staged files
 alias gds='git diff --staged'
-#######
+
+#diff staged files with only words colored
+alias gdscw='git diff --staged --color-words'
+######
 
 ##Python##
 
