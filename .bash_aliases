@@ -28,6 +28,12 @@ alias ga='git add'
 #restore
 alias gr='git restore'
 
+#delete file
+alias grm='git rm'
+
+#move file
+alias gmv='git mv'
+
 #commit
 alias gc='git commit'
 
