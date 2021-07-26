@@ -191,7 +191,7 @@ function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {BWT,CC,CT,DS};
+        for unit in {BWT,CC,CT,DBS};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/$unit status -sb;
@@ -204,7 +204,7 @@ function ctiss ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {BWT,CC,CT,DS};
+        for unit in {BWT,CC,CT,DBS};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/$unit fetch;
@@ -247,11 +247,11 @@ function cts()
 }
 
 #run git fetch and status -sb for for Database Systems
-function dss ()
+function dbss ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        unit=DS;
+        unit=DBS;
         echo -e "\n$unit:";
         git -C "$path"/$unit fetch;
         git -C "$path"/$unit status -sb;

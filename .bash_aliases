@@ -181,7 +181,7 @@ alias cc='cd ~/one/CTI/CC'
 alias ct='cd ~/one/CTI/CT'
 
 #change directory to Unix Systems Programming
-alias ds='cd ~/one/CTI/DS'
+alias dbs='cd ~/one/CTI/DBS'
 
 #change directory to Unix Systems Programming (unix repo)
 alias uusp='cd ~/unix/USP'
