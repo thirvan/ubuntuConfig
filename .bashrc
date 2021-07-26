@@ -191,7 +191,7 @@ function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {BWT,CC,CT,DBS};
+        for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/$unit status -sb;
@@ -204,7 +204,7 @@ function ctiss ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {BWT,CC,CT,DBS};
+        for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/$unit fetch;
@@ -246,7 +246,7 @@ function cts()
         git -C "$path"/$unit status -sb;
 }
 
-#run git fetch and status -sb for for Database Systems
+#run git fetch and status -sb for Database Systems
 function dbss ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
@@ -257,6 +257,28 @@ function dbss ()
         git -C "$path"/$unit status -sb;
 }
 
+
+#run git fetch and status -sb for Unifit FOP tutoring
+function tfops ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        unit=Tutoring/UniFit;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
+}
+
+#run git fetch and status -sb for Linear Algebra tutoring
+function tlas ()
+{
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+
+        unit=Tutoring/LA;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
+}
 
 #run git fetch and status -sb for ubuntuConfig
 function confs()
