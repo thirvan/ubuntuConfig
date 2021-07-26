@@ -172,16 +172,16 @@ alias one='cd /mnt/c/Users/Thirvan/OneDrive\ -\ Curtin\ University\ of\ Technolo
 alias cti='cd ~/one/CTI'
 
 #change directory to Digital Principles and Process
-alias bwt='cd ~/one/CTI/bwt'
+alias bwt='cd ~/one/CTI/BWT'
 
 #change directory to Digital Design 1
-alias cc='cd ~/one/CTI/cc' 
+alias cc='cd ~/one/CTI/CC'
 
 #change directory to perating Systems
-alias ct='cd ~/one/CTI/ct'
+alias ct='cd ~/one/CTI/CT'
 
 #change directory to Unix Systems Programming
-alias ds='cd ~/one/CTI/ds'
+alias ds='cd ~/one/CTI/DS'
 
 #change directory to Unix Systems Programming (unix repo)
 alias uusp='cd ~/unix/USP'
