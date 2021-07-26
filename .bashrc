@@ -213,73 +213,50 @@ function ctiss ()
 
 }
 
-#run git fetch and status -sb for Operating Systems 
-function oss ()
+#run git fetch and status -sb for Business Web Technologies
+function bwts ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        unit=OS;
+        unit=BWT;
         echo -e "\n$unit:";
         git -C "$path"/$unit fetch;
         git -C "$path"/$unit status -sb;
 }
 
-#run git fetch and status -sb for Operating Systems Assignment in unix repo
-function osas ()
-{
-        path="/home/thirvan/unix";
-
-        unit=OSA;
-        echo -e "\n$unit:";
-        git -C "$path"/$unit fetch;
-        git -C "$path"/$unit status -sb;
-}
-
-
-#run git fetch and status -sb for Unix Systems Programming 
-function usps ()
+#run git fetch and status -sb for Computer Communications
+function ccs ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        unit=USP;
+        unit=CC;
         echo -e "\n$unit:";
         git -C "$path"/$unit fetch;
         git -C "$path"/$unit status -sb;
 }
 
-#run git fetch and status -sb for Unix Systems Programming (unix repo)
-function uusps ()
-{
-        path="/home/thirvan/unix"
-
-        unit=USP;
-        echo -e "\n$unit:";
-        git -C "$path"/$unit fetch;
-        git -C "$path"/$unit status -sb;
-}
-
-#
-#run git fetch and status -sb for Digital Design 1
-function dds ()
+#run git fetch and status -sb for Computing Topics
+function cts()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        unit=DD;
+        unit=CT;
         echo -e "\n$unit:";
         git -C "$path"/$unit fetch;
         git -C "$path"/$unit status -sb;
 }
 
-#run git fetch and status -sb for Design Principles and Process 
-function dpps ()
+#run git fetch and status -sb for for Database Systems
+function dss ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        unit=DPP;
+        unit=DS;
         echo -e "\n$unit:";
         git -C "$path"/$unit fetch;
         git -C "$path"/$unit status -sb;
 }
+
 
 #run git fetch and status -sb for ubuntuConfig
 function confs()
