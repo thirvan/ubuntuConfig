@@ -138,6 +138,9 @@ alias oasis='chrome https://oasis.curtin.edu.au/'
 #open github
 alias hub='chrome https://github.com/thirvan'
 
+#output personal github token
+alias tok='sudo cat ~/.githubtoken'
+
 #open github issues page for ubuntuConfig
 alias issues='chrome https://github.com/thirvan/ubuntuConfig/issues'
 
