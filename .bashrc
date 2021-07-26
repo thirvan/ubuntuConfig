@@ -186,12 +186,12 @@ function gcm ()
         git commit -m "$*"
 }
 
-#run git status -sb for every sem 1 2021 curtin unit
+#run git status -sb for every sem 2 2021 curtin unit
 function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {OS,USP,archive/Code/ubuntuConfig};
+        for unit in {BWT,CC,CT,DS};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/$unit status -sb;
@@ -199,12 +199,12 @@ function ctis ()
 
 }
 
-#run git fetch and status -sb for every sem 1 2021 curtin unit
+#run git fetch and status -sb for every sem 2 2021 curtin unit
 function ctiss ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {OS,USP,archive/Code/ubuntuConfig};
+        for unit in {BWT,CC,CT,DS};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/$unit fetch;
