@@ -186,6 +186,12 @@ alias ct='cd ~/one/CTI/CT'
 #change directory to Unix Systems Programming
 alias dbs='cd ~/one/CTI/DBS'
 
+#change directory to UniFit FOP tutoring
+alias tfop='cd ~/one/CTI/Tutoring/UniFit'
+
+#change directory to Linear Algebra tutoring
+alias tla='cd ~/one/CTI/Tutoring/LA'
+
 #change directory to Unix Systems Programming (unix repo)
 alias uusp='cd ~/unix/USP'
 
