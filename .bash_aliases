@@ -102,6 +102,9 @@ alias vlc='/mnt/c/"Program Files (x86)"/VideoLAN/VLC/vlc.exe'
 #open chrome
 alias chrome='/mnt/c/"Program Files"/Google/Chrome/Application/chrome.exe'
 
+#open Everything
+alias eve='/mnt/c/"Program Files (x86)"/Everything/Everything.exe'
+
 #open firefox 
 alias fire='/mnt/c/"Program Files"/"Mozilla Firefox"/firefox.exe'
 

@@ -164,6 +164,14 @@ function lib ()
         chrome "https://catalogue.curtin.edu.au/primo-explore/search?tab=default_tab&search_scope=CurtinBlended&vid=CUR_ALMA&lang=en_US&offset=0&query=any,contains,$*"
 }
 
+#git add first word and git commit
+function gac ()
+{
+    git add "$1"
+    git commit
+}
+
+
 #git add first word and git commit with following words as message
 function gacm ()
 {
