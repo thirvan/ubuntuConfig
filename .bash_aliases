@@ -9,6 +9,9 @@ alias rm='rm -iv'
 #list with sizes in human readable format
 alias lss='ls -lsh'
 
+#summarize disk usage in human readable format
+alias duh='du -h'
+
 #put space after sudo to check if next command is an alias
 alias sudo='sudo '
 
