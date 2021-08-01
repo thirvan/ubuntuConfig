@@ -147,6 +147,9 @@ alias hub='chrome https://github.com/thirvan'
 #output personal github token
 alias tok='sudo cat ~/.githubtoken'
 
+#output mysql password
+alias dbspass='sudo cat ~/.dbspass'
+
 #open github issues page for ubuntuConfig
 alias issues='chrome https://github.com/thirvan/ubuntuConfig/issues'
 
