@@ -260,6 +260,9 @@ alias vimconf='vim ~/ubuntuConfig/.bash_aliases'
 #open ~/ubuntuConfig/.bashrc
 alias vimfunc='vim ~/ubuntuConfig/.bashrc'
 
+#open ~/ubuntuConfig/.vimrc
+alias vimrc='vim ~/ubuntuConfig/.vimrc'
+
 #change directory to ubuntuConfig
 alias conf='cd ~/ubuntuConfig'
 
