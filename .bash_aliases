@@ -102,6 +102,10 @@ alias vlc='/mnt/c/"Program Files (x86)"/VideoLAN/VLC/vlc.exe'
 #open chrome
 alias chrome='/mnt/c/"Program Files"/Google/Chrome/Application/chrome.exe'
 
+#open logiOptionsPlus
+alias logi='/mnt/c/"Program Files"/LogiOptionsPlus/logioptionsplus.exe >
+dev/null'
+
 #open Everything
 alias eve='/mnt/c/"Program Files (x86)"/Everything/Everything.exe'
 
@@ -315,3 +319,7 @@ alias makeh='cp ~/ubuntuConfig/templates/makedir/make makeh'
 
 #create a directory containing a Makefile and a basic C program
 alias cprogh='cp -r ~/ubuntuConfig/templates/cprogdir .'
+
+
+#start mysql then login in mysql using password as current user
+alias sql='sudo service mysql start; mysql -u $(whoami) -p'
