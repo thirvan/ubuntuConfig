@@ -103,7 +103,7 @@ alias vlc='/mnt/c/"Program Files (x86)"/VideoLAN/VLC/vlc.exe'
 alias chrome='/mnt/c/"Program Files"/Google/Chrome/Application/chrome.exe'
 
 #open logiOptionsPlus
-alias logi='/mnt/c/"Program Files"/LogiOptionsPlus/logioptionsplus.exe > /dev/null'
+alias logi='/mnt/c/"Program Files"/LogiOptionsPlus/logioptionsplus.exe &> /dev/null'
 
 #open Everything
 alias eve='/mnt/c/"Program Files (x86)"/Everything/Everything.exe'
@@ -112,10 +112,10 @@ alias eve='/mnt/c/"Program Files (x86)"/Everything/Everything.exe'
 alias fire='/mnt/c/"Program Files"/"Mozilla Firefox"/firefox.exe'
 
 #open thirvanxx@gmail.com chrome user
-alias play='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Play.lnk'
+alias play='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Play.lnk &> /dev/null'
 
 #open thirvansomanah@gmail.com chrome user
-alias work='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Work.lnk'
+alias work='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Work.lnk &> /dev/null'
 
 #open YouTube in the current chrome user
 alias yt='chrome youtube.com'
@@ -279,19 +279,19 @@ alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp; cd -'
 alias note='notepad.exe'
 
 #open Google Keep pwa
-alias keep='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Keep.lnk'
+alias keep='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Keep.lnk &> /dev/null'
 
 #open Google TasksBoard pwa
-alias tasks='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\TasksBoard.lnk'
+alias tasks='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\TasksBoard.lnk &> /dev/null'
 
 #open Google Calendar pwa
-alias cal='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Calendar.lnk'
+alias cal='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Calendar.lnk &> /dev/null'
 
 #open BlackBoard pwa
-alias bb='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Blackboard.lnk'
+alias bb='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Blackboard.lnk &> /dev/null'
 
 #open Outlook mail pwa
-alias mail='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Outlook.lnk'
+alias mail='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Outlook.lnk &> /dev/null'
 
 
 
