@@ -1,5 +1,5 @@
 " turn hybrid line numbers on
-set number relativenumber
+set relativenumber
 
 " set UTF-8 encoding
 set enc=utf-8
