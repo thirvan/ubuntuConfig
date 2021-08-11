@@ -103,8 +103,7 @@ alias vlc='/mnt/c/"Program Files (x86)"/VideoLAN/VLC/vlc.exe'
 alias chrome='/mnt/c/"Program Files"/Google/Chrome/Application/chrome.exe'
 
 #open logiOptionsPlus
-alias logi='/mnt/c/"Program Files"/LogiOptionsPlus/logioptionsplus.exe >
-dev/null'
+alias logi='/mnt/c/"Program Files"/LogiOptionsPlus/logioptionsplus.exe > /dev/null'
 
 #open Everything
 alias eve='/mnt/c/"Program Files (x86)"/Everything/Everything.exe'
