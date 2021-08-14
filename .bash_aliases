@@ -322,3 +322,6 @@ alias cprogh='cp -r ~/ubuntuConfig/templates/cprogdir .'
 
 #start mysql then login in mysql using password as current user
 alias sql='sudo service mysql start; mysql -u $(whoami) -p'
+
+#open using wsl utility
+alias open='wslview'
