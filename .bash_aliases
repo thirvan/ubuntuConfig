@@ -313,3 +313,6 @@ alias sql='sudo service mysql start; mysql -u $(whoami) -p'
 
 #open using wsl utility
 alias open='wslview'
+
+#open cisco packet tracer
+alias pt='"/mnt/c/Program Files/Cisco Packet Tracer 7.3.1/bin/PacketTracer7.exe"'
