@@ -7,7 +7,7 @@ alias br='source ~/.bash_profile'
 alias rm='rm -iv'
 
 #list with sizes in human readable format
-alias lss='ls -lsh'
+alias lss='ls -alsh'
 
 #summarize disk usage in human readable format
 alias duh='du -h'
