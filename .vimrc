@@ -48,3 +48,5 @@ nmap <F2> :w<CR>
 " in insert mode F2 will exit insert, save, enters insert again
 imap <F2> <ESC>:w<CR>i
 
+" remap Y to yank up to end of line
+:map Y y$
