@@ -186,16 +186,19 @@ alias one='cd /mnt/c/Users/Thirvan/OneDrive\ -\ Curtin\ University\ of\ Technolo
 #change directory to CTI
 alias cti='cd ~/one/CTI'
 
-#change directory to Digital Principles and Process
+#change directory to Business Web Technologies
 alias bwt='cd ~/one/CTI/BWT'
 
-#change directory to Digital Design 1
+#change directory to CSS Essential Training
+alias css='cd ~/css'
+
+#change directory to Computer Communications
 alias cc='cd ~/one/CTI/CC'
 
-#change directory to perating Systems
+#change directory to Computing Topics
 alias ct='cd ~/one/CTI/CT'
 
-#change directory to Unix Systems Programming
+#change directory to Database Systems
 alias dbs='cd ~/one/CTI/DBS'
 
 #change directory to UniFit FOP tutoring
