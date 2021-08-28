@@ -199,10 +199,10 @@ function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA};
+        for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA,archive/LinkedIn/"CSS Essential Training"};
         do
                 echo -e "\n$unit:";
-                git -C "$path"/$unit status -sb;
+                git -C "$path"/"$unit" status -sb;
         done
 
 }
@@ -212,13 +212,24 @@ function ctiss ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA};
+        for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA,archive/LinkedIn/"CSS Essential Training"};
         do
                 echo -e "\n$unit:";
-                git -C "$path"/$unit fetch;
-                git -C "$path"/$unit status -sb;
+                git -C "$path"/"$unit" fetch;
+                git -C "$path"/"$unit" status -sb;
         done
 
+}
+
+
+#run git fetch and status -sb for CSS Essential Training
+function csss ()
+{
+        path="/home/thirvan/";
+        unit=css;
+        echo -e "\n$unit:";
+        git -C "$path"/$unit fetch;
+        git -C "$path"/$unit status -sb;
 }
 
 #run git fetch and status -sb for Business Web Technologies
