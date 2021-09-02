@@ -148,7 +148,7 @@ alias oasis='chrome https://oasis.curtin.edu.au/'
 alias hub='chrome https://github.com/thirvan'
 
 #output personal github token
-alias tok='sudo cat ~/.githubtoken'
+alias tok='sudo cat ~/.githubtoken | clip.exe'
 
 #output mysql password
 alias dbspass='sudo cat ~/.dbspass'
