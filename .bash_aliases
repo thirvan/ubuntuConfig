@@ -57,7 +57,7 @@ alias glo='git log --oneline'
 
 
 #push
-alias gpush='git push'
+alias gpush='tok; git push'
 
 #fetch
 alias gf='git fetch'
