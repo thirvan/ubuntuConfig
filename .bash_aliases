@@ -23,7 +23,8 @@ alias bat='batcat'
 
 #enable sl to be stopped by ^C
 alias sl='sl -e'
-##Git##
+
+##GIT##
 
 #add
 alias ga='git add'
@@ -55,6 +56,8 @@ alias gl='git log'
 #log only first commit line
 alias glo='git log --oneline'
 
+#checkout
+alias gch='git checkout'
 
 #push
 alias gpush='tok; git push'
