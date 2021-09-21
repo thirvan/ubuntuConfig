@@ -204,6 +204,10 @@ alias dbs='cd ~/one/CTI/DBS'
 #change directory to UniFit FOP tutoring
 alias tfop='cd ~/one/CTI/Tutoring/UniFit'
 
+#change directory to UniFit FOP tutoring
+alias fop='cd ~/one/CTI/archive/"Semester 1"/FOP'
+
+
 #change directory to Linear Algebra tutoring
 alias tla='cd ~/one/CTI/Tutoring/LA'
 
