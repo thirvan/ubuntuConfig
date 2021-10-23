@@ -3,6 +3,6 @@ if [ -f ~/.profile ]; then
 fi
 
 # Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-            . ~/.bashrc
-fi
+# if [ -f ~/.bashrc ]; then
+            # . ~/.bashrc
+# fi
