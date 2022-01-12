@@ -330,3 +330,5 @@ alias pt='"/mnt/c/Program Files/Cisco Packet Tracer 7.3.1/bin/PacketTracer7.exe"
 
 #change directory to archive
 alias archive='cd ~/one/CTI/archive'
+
+alias ghost='\gs'
