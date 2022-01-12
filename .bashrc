@@ -133,7 +133,7 @@ shopt -s histverify
 #usage: onepiece 500
 function onepiece () 
 {
-  chrome "https://onepiecechapters.com/manga/one-piece-chapter-$1"
+  chrome "https://onepiecechapters.com/chapters/353/one-piece-chapter-$1"
 }
 
 #open original black and white One Piece chapter in chrome
