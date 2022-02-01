@@ -1,5 +1,0 @@
-#change directory to Fintech
-alias fin='cd ~/one/CTI/fintech'
-
-#change directory to ePortfolio
-alias port='cd ~/one/CTI/ePortfolio'
