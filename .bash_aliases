@@ -335,3 +335,4 @@ alias ghost='\gs'
 
 alias it='cd /home/thirvan/one/iTelligence'
 
+alias port="cd ~/portfolio"
