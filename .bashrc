@@ -338,36 +338,12 @@ function ytp ()
         fi
 }
 
-#open the USP Workshop directory at for the specified week
-function uspw()
+#open the uniskills worksheets directory at for the specified week
+function uniw()
 {
-    usp;
-    cd Workshop;
-    cd Workshop\ $1;
-}
-
-#open the unix USP Workshop directory at for the specified week
-function uuspw()
-{
-    uusp;
-    cd Workshop;
-    cd Workshop\ $1;
-}
-
-#open the OS Workshop directory at for the specified week
-function osw()
-{
-    os;
-    cd Workshop;
-    cd Workshop\ $1;
-}
-
-#open the DPP Workshop directory at for the specified week
-function dppw()
-{
-    dpp;
-    cd Workshop;
-    cd Workshop\ $1;
+    uni;
+    cd worksheets;
+    cd ws$1;
 }
 
 #open the cs50 problem set directory of the specified week
