@@ -1,5 +1,5 @@
 " turn hybrid line numbers on
-set relativenumber
+" set relativenumber
 
 " set UTF-8 encoding
 set enc=utf-8
@@ -24,6 +24,10 @@ syntax on
 " colorscheme wombat256
 " turn line numbers on
 set number
+
+"Line wrapping highlighting
+set colorcolumn=80
+
 " highlight matching braces
 set showmatch
 " intelligent comments
