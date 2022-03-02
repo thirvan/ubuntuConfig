@@ -201,7 +201,7 @@ function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA,archive/LinkedIn/"CSS Essential Training"};
+        for unit in {DN,HCI,BI,CCP,uniskills};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/"$unit" status -sb;
