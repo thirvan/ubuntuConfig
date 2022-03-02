@@ -201,7 +201,7 @@ function ctis ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
 
-        for unit in {DN,HCI,BI,CCP,uniskills};
+        for unit in {DN,HCI,BI,CCP,USD};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/"$unit" status -sb;
@@ -338,10 +338,10 @@ function ytp ()
         fi
 }
 
-#open the uniskills worksheets directory at for the specified week
-function uniw()
+#open the uniskills development worksheets directory at for the specified week
+function usdw()
 {
-    uni;
+    usd;
     cd worksheets;
     cd ws$1;
 }

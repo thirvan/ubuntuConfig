@@ -321,7 +321,7 @@ alias it='cd /home/thirvan/one/iTelligence'
 
 alias port="cd ~/portfolio"
 
-alias uni="cd ~/one/CTI/uniskills"
+alias usd="cd ~/one/CTI/USD"
 alias hci="cd ~/one/CTI/HCI"
 alias ccp="cd ~/one/CTI/CCP"
 alias dn="cd ~/one/CTI/DN"
