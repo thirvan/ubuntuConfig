@@ -195,24 +195,8 @@ alias bwt='cd ~/one/CTI/BWT'
 #change directory to CSS Essential Training
 alias css='cd ~/css'
 
-#change directory to Computer Communications
-alias cc='cd ~/one/CTI/CC'
-
-#change directory to Computing Topics
-alias ct='cd ~/one/CTI/CT'
-
-#change directory to Database Systems
-alias dbs='cd ~/one/CTI/DBS'
-
-#change directory to UniFit FOP tutoring
-alias tfop='cd ~/one/CTI/Tutoring/UniFit'
-
 #change directory to UniFit FOP tutoring
 alias fop='cd ~/one/CTI/archive/"Semester 1"/FOP'
-
-
-#change directory to Linear Algebra tutoring
-alias tla='cd ~/one/CTI/Tutoring/LA'
 
 #change directory to Unix Systems Programming (unix repo)
 alias uusp='cd ~/unix/USP'
@@ -338,3 +322,9 @@ alias it='cd /home/thirvan/one/iTelligence'
 alias port="cd ~/portfolio"
 
 alias uni="cd ~/one/CTI/uniskills"
+alias hci="cd ~/one/CTI/HCI"
+alias ccp="cd ~/one/CTI/CCP"
+alias dn="cd ~/one/CTI/DN"
+alias bi="cd ~/one/CTI/BI"
+
+alias comp='gcc -Wall -ansi -pedantic -Werror'
