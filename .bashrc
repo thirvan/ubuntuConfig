@@ -197,9 +197,9 @@ function gcm ()
 }
 
 #run git status -sb for every sem 2 2021 curtin unit
-function ctis ()
+function ctcs ()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         for unit in {DN,HCI,BI,CCP,USD};
         do
@@ -210,9 +210,9 @@ function ctis ()
 }
 
 #run git fetch and status -sb for every sem 2 2021 curtin unit
-function ctiss ()
+function ctcss ()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         for unit in {BWT,CC,CT,DBS,Tutoring/UniFit,Tutoring/LA,archive/LinkedIn/"CSS Essential Training"};
         do
@@ -237,7 +237,7 @@ function csss ()
 #run git fetch and status -sb for Business Web Technologies
 function bwts ()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         unit=BWT;
         echo -e "\n$unit:";
@@ -248,7 +248,7 @@ function bwts ()
 #run git fetch and status -sb for Computer Communications
 function ccs ()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         unit=CC;
         echo -e "\n$unit:";
@@ -259,7 +259,7 @@ function ccs ()
 #run git fetch and status -sb for Computing Topics
 function cts()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         unit=CT;
         echo -e "\n$unit:";
@@ -270,7 +270,7 @@ function cts()
 #run git fetch and status -sb for Database Systems
 function dbss ()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         unit=DBS;
         echo -e "\n$unit:";
@@ -282,7 +282,7 @@ function dbss ()
 #run git fetch and status -sb for Unifit FOP tutoring
 function tfops ()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         unit=Tutoring/UniFit;
         echo -e "\n$unit:";
@@ -293,7 +293,7 @@ function tfops ()
 #run git fetch and status -sb for Linear Algebra tutoring
 function tlas ()
 {
-        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTI";
+        path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
         unit=Tutoring/LA;
         echo -e "\n$unit:";
