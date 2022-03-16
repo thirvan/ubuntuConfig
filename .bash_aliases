@@ -71,6 +71,9 @@ alias gm='git merge'
 #pull
 alias gpull='git pull'
 
+#clone
+alias gcl='tok; git clone'
+
 #diff
 alias gd='git diff'
 
@@ -186,17 +189,17 @@ alias power='/mnt/c/Program\ Files/Microsoft\ Office/root/Office16/POWERPNT.EXE'
 #change directory to University OneDrive
 alias one='cd /mnt/c/Users/Thirvan/OneDrive\ -\ Curtin\ University\ of\ Technology\ Australia/' 
 
-#change directory to CTI
-alias cti='cd ~/one/CTI'
+#change directory to CTC
+alias ctc='cd ~/one/CTC'
 
 #change directory to Business Web Technologies
-alias bwt='cd ~/one/CTI/BWT'
+alias bwt='cd ~/one/CTC/BWT'
 
 #change directory to CSS Essential Training
 alias css='cd ~/css'
 
 #change directory to UniFit FOP tutoring
-alias fop='cd ~/one/CTI/archive/"Semester 1"/FOP'
+alias fop='cd ~/one/CTC/archive/"Semester 1"/FOP'
 
 #change directory to Unix Systems Programming (unix repo)
 alias uusp='cd ~/unix/USP'
@@ -208,13 +211,13 @@ alias osa='cd ~/unix/OSA'
 alias uspa='cd ~/unix/USPA'
 
 #change directory to Semester 1 
-alias sem1='cd ~/one/CTI/archive/Semester\ 1' 
+alias sem1='cd ~/one/CTC/archive/Semester\ 1' 
 
 #change directory to Semester 2 
-alias sem2='cd ~/one/CTI/archive/Semester\ 2' 
+alias sem2='cd ~/one/CTC/archive/Semester\ 2' 
 
 #change directory to Unix and C Programming
-alias ucp='cd ~/one/CTI/archive/Semester\ 2/UCP'
+alias ucp='cd ~/one/CTC/archive/Semester\ 2/UCP'
 
 #change directory to cs50
 alias cs='cd ~/cs50' 
@@ -234,16 +237,16 @@ alias videos='cd /mnt/c/Users/Thirvan/Videos'
 alias short='cd /home/thirvan/ubuntuShortcuts'
 
 #change directory to recordings
-alias rec='cd ~/one/cti/recordings'
+alias rec='cd ~/one/ctc/recordings'
 
 #change directory to dpp recordings
-alias recdpp='cd ~/one/CTI/recordings/DPP'
+alias recdpp='cd ~/one/CTC/recordings/DPP'
 
 #change directory to usp recordings
-alias recusp='cd ~/one/CTI/recordings/USP'
+alias recusp='cd ~/one/CTC/recordings/USP'
 
 #change directory to os recordings
-alias recos='cd ~/one/CTI/recordings/OS'
+alias recos='cd ~/one/CTC/recordings/OS'
 
 #
 #change directory to One Pace
@@ -313,7 +316,7 @@ alias open='wslview'
 alias pt='"/mnt/c/Program Files/Cisco Packet Tracer 7.3.1/bin/PacketTracer7.exe"'
 
 #change directory to archive
-alias archive='cd ~/one/CTI/archive'
+alias archive='cd ~/one/CTC/archive'
 
 alias ghost='\gs'
 
@@ -321,10 +324,10 @@ alias it='cd /home/thirvan/one/iTelligence'
 
 alias port="cd ~/portfolio"
 
-alias usd="cd ~/one/CTI/USD"
-alias hci="cd ~/one/CTI/HCI"
-alias ccp="cd ~/one/CTI/CCP"
-alias dn="cd ~/one/CTI/DN"
-alias bi="cd ~/one/CTI/BI"
+alias usd="cd ~/one/CTC/USD"
+alias hci="cd ~/one/CTC/HCI"
+alias ccp="cd ~/one/CTC/CCP"
+alias dn="cd ~/one/CTC/DN"
+alias bi="cd ~/one/CTC/BI"
 
 alias comp='gcc -Wall -ansi -pedantic -Werror'
