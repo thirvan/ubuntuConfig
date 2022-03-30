@@ -59,6 +59,9 @@ alias glo='git log --oneline'
 #checkout
 alias gch='git checkout'
 
+#branch
+alias gbr='git branch'
+
 #push
 alias gpush='tok; git push'
 
@@ -300,11 +303,17 @@ alias virtual='/mnt/c/Program\ Files/Oracle/VirtualBox/VirtualBoxVM.exe --startv
 #run speedtest by Ookla
 alias speed='speedtest'
 
-#create a template of a make file in current directory
+#create a template of a make file in the current directory
 alias makeh='cp ~/ubuntuConfig/templates/makedir/make makeh'
+
+#create a template of a UCP make file in the current directory
+alias ucpmakeh='cp ~/ubuntuConfig/templates/makedir/ucpmake ucpmakeh'
 
 #create a directory containing a Makefile and a basic C program
 alias cprogh='cp -r ~/ubuntuConfig/templates/cprogdir .'
+
+#create a directory containing a UCP Makefile and a basic C program
+alias ucpcprogh='cp -r ~/ubuntuConfig/templates/ucpcprogdir .'
 
 #start mysql then login in mysql using password as current user
 alias sql='sudo service mysql start; sudo cat ~/.dbsthirvanpass | clip.exe; mysql -u $(whoami) -p'
