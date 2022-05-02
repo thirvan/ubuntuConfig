@@ -65,6 +65,9 @@ alias gbr='git branch'
 #push
 alias gpush='tok; git push'
 
+#push
+alias glpush='toklab; git push'
+
 #fetch
 alias gf='git fetch'
 
@@ -158,6 +161,9 @@ alias hub='chrome https://github.com/thirvan'
 
 #output personal github token
 alias tok='sudo cat ~/.githubtoken | clip.exe'
+
+#output personal github token
+alias toklab='sudo cat ~/.gitlabtoken | clip.exe'
 
 #output mysql password
 alias dbspass='sudo cat ~/.dbspass'
@@ -334,9 +340,13 @@ alias it='cd /home/thirvan/one/iTelligence'
 alias port="cd ~/portfolio"
 
 alias usd="cd ~/one/CTC/USD"
+alias usda="cd ~/one/CTC/USD/assignments/assignment_1"
 alias hci="cd ~/one/CTC/HCI"
 alias ccp="cd ~/one/CTC/CCP"
 alias dn="cd ~/one/CTC/DN"
 alias bi="cd ~/one/CTC/BI"
 
-alias comp='gcc -Wall -ansi -pedantic -Werror'
+alias comp='gcc -Wall -ansi -pedantic -Werror -g'
+alias val='valgrind --leak-check=full --track-origins=yes'
+
+alias dr='dotnet run'
