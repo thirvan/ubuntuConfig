@@ -162,8 +162,14 @@ alias hub='chrome https://github.com/thirvan'
 #output personal github token
 alias tok='sudo cat ~/.githubtoken | clip.exe'
 
-#output personal github token
+#output personal github token 2
+alias tok2='sudo cat ~/.githubtoken2 | clip.exe'
+
+#output personal gitlab token
 alias toklab='sudo cat ~/.gitlabtoken | clip.exe'
+
+#output personal bitbucket token
+alias buckettok='sudo cat ~/.buckettoken | clip.exe'
 
 #output mysql password
 alias dbspass='sudo cat ~/.dbspass'
@@ -350,3 +356,7 @@ alias comp='gcc -Wall -ansi -pedantic -Werror -g'
 alias val='valgrind --leak-check=full --track-origins=yes'
 
 alias dr='dotnet run'
+
+alias repos='cd ~/repos'
+
+alias ccpdrive='cd /mnt/c/Users/Thirvan/My\ Drive/Capstone-INFO_CVMS'
