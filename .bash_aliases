@@ -345,12 +345,10 @@ alias it='cd /home/thirvan/one/iTelligence'
 
 alias port="cd ~/portfolio"
 
-alias usd="cd ~/one/CTC/USD"
-alias usda="cd ~/one/CTC/USD/assignments/assignment_1"
-alias hci="cd ~/one/CTC/HCI"
-alias ccp="cd ~/one/CTC/CCP"
-alias dn="cd ~/one/CTC/DN"
-alias bi="cd ~/one/CTC/BI"
+alias bst="cd ~/one/CTC/BST"
+alias ccp="cd ~/one/CTC/CCP2"
+alias em="cd ~/one/CTC/EM"
+alias acc="cd ~/one/CTC/ACC"
 
 alias comp='gcc -Wall -ansi -pedantic -Werror -g'
 alias val='valgrind --leak-check=full --track-origins=yes'
@@ -360,3 +358,4 @@ alias dr='dotnet run'
 alias repos='cd ~/repos'
 
 alias ccpdrive='cd /mnt/c/Users/Thirvan/My\ Drive/Capstone-INFO_CVMS'
+alias accw='cd ~/unix/accw'
