@@ -201,7 +201,7 @@ function ctcs ()
 {
         path="/mnt/c/Users/Thirvan/Onedrive - Curtin University of Technology Australia/CTC";
 
-        for unit in {DN,HCI,BI,CCP,USD};
+        for unit in {CCP2,ACC,BST,EM};
         do
                 echo -e "\n$unit:";
                 git -C "$path"/"$unit" status -sb;
@@ -377,3 +377,10 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+#
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+export PS1="\[\e[32m\]\u@\h\[\e[00m\]:\[\e[34m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
