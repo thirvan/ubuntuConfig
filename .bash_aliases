@@ -64,6 +64,7 @@ alias gbr='git branch'
 
 #push
 alias gpush='tok; git push'
+alias vmgpush='vmtok; git push'
 
 #push
 alias glpush='toklab; git push'
@@ -79,6 +80,7 @@ alias gpull='git pull'
 
 #clone
 alias gcl='tok; git clone'
+alias vmgcl='vmtok; git clone'
 
 #diff
 alias gd='git diff'
@@ -159,8 +161,12 @@ alias oasis='chrome https://oasis.curtin.edu.au/'
 #open github
 alias hub='chrome https://github.com/thirvan'
 
+#copy input to linux clipboard
+alias copy='xsel -bi'
+
 #output personal github token
 alias tok='sudo cat ~/.githubtoken | clip.exe'
+alias vmtok='sudo cat ~/.githubtoken | copy'
 
 #output personal github token 2
 alias tok2='sudo cat ~/.githubtoken2 | clip.exe'
