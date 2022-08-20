@@ -365,3 +365,6 @@ alias repos='cd ~/repos'
 
 alias ccpdrive='cd /mnt/c/Users/Thirvan/My\ Drive/Capstone-INFO_CVMS'
 alias accw='cd ~/unix/accw'
+alias sshvm='ssh thirvanvm@ubuntu2204'
+
+alias gitignorefile='~/ubuntuConfig/gitignorefile.sh'
