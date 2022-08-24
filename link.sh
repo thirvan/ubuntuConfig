@@ -1,3 +1,5 @@
+#! /bin/bash
+
 mkdir ~/configBAK
 
 #copy existing config files to configBAK
