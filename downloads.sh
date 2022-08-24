@@ -1,10 +1,10 @@
-sudo apt update && sudo apt upgrade
-sudo apt install git
-sudo apt install vim
-sudo apt install bat
-sudo apt install openssh-server
-sudo apt install gcc
-sudo apt install net-tools
-sudo apt install xsel
-sudo snap install code --classic
+apt update && sudo apt upgrade
+apt install git
+apt install vim
+apt install bat
+apt install openssh-server
+apt install gcc
+apt install net-tools
+apt install xsel
+snap install code --classic
 
