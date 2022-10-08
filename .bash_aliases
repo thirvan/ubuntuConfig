@@ -362,9 +362,14 @@ alias val='valgrind --leak-check=full --track-origins=yes'
 alias dr='dotnet run'
 
 alias repos='cd ~/repos'
+alias mainfo='cd ~/repos/ma_info_cvms'
 
 alias ccpdrive='cd /mnt/c/Users/Thirvan/My\ Drive/Capstone-INFO_CVMS'
 alias accw='cd ~/unix/accw'
+alias acca='cd ~/unix/acca'
 alias sshvm='ssh thirvanvm@ubuntu2204'
 
 alias gitignorefile='~/ubuntuConfig/gitignorefile.sh'
+alias ns='netstat -a | grep 50150'
+alias lsofs='lsof -i | grep 50150'
+alias renamepdftitle='echo exiftool -Title=\"This is the Title\" -Author=\"Happy Man\" -Subject=\"PDF Metadata\" drawing.pdf'
