@@ -101,7 +101,7 @@ alias py='python3'
 #########
 
 #sync date
-alias sync='echo "sudo hwclock (synchronise date)"; sudo hwclock -s'
+alias sync='echo "sudo ntpdate ntp.ubuntu.com (synchronise date)";sudo ntpdate ntp.ubuntu.com'
 
 #show most used commands
 ######################
