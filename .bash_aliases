@@ -166,6 +166,7 @@ alias copy='xsel -bi'
 
 #output personal github token
 alias tok='sudo cat ~/.githubtoken | clip.exe'
+alias cstok='sudo cat ~/.githubtokencs50 | clip.exe'
 alias vmtok='sudo cat ~/.githubtoken | copy'
 
 #output personal github token 2
