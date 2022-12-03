@@ -1,6 +1,6 @@
 CC = gcc
 LD = gcc
-CFLAGS = -g -Wall -ansi -pedantic -Werror
+CFLAGS = -g -Wall -Werror
 LFLAGS = -lm -g
 VFLAGS = --leak-check=full --track-origins=yes --show-leak-kinds=all -s
 SRCS = main.c
