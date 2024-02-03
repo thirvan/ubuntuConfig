@@ -140,9 +140,6 @@ alias yth='chrome https://www.youtube.com/feed/history'
 #open Whatsapp
 alias ws='chrome https://web.whatsapp.com/'
 
-#open Gogoanime
-alias gogo='chrome gogoanime.so'
-
 ###thirvansomanah@gmail.com user###
 
 #open Outlook calendar
@@ -208,43 +205,8 @@ alias power='/mnt/c/Program\ Files/Microsoft\ Office/root/Office16/POWERPNT.EXE'
 #alias exp='explorer.exe .'
 #################
 
-#change directory to University OneDrive
-alias one='cd /mnt/c/Users/Thirvan/OneDrive\ -\ Curtin\ University\ of\ Technology\ Australia/' 
-
-#change directory to CTC
-alias ctc='cd ~/one/CTC'
-
-#change directory to Business Web Technologies
-alias bwt='cd ~/one/CTC/BWT'
-
-#change directory to CSS Essential Training
-alias css='cd ~/css'
-
-#change directory to UniFit FOP tutoring
-alias fop='cd ~/one/CTC/archive/"Semester 1"/FOP'
-
-#change directory to Unix Systems Programming (unix repo)
-alias uusp='cd ~/unix/USP'
-
-#change directory to Operating Systems Assignment (unix repo)
-alias osa='cd ~/unix/OSA'
-
-#change directory to Unix Systems Programming Assignment (unix repo)
-alias uspa='cd ~/unix/USPA'
-
-#change directory to Semester 1 
-alias sem1='cd ~/one/CTC/archive/Semester\ 1' 
-
-#change directory to Semester 2 
-alias sem2='cd ~/one/CTC/archive/Semester\ 2' 
-
-#change directory to Unix and C Programming
-alias ucp='cd ~/one/CTC/archive/Semester\ 2/UCP'
-
 #change directory to cs50
 alias cs='cd ~/cs50' 
-
-alias http-server='http_server'
 
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
@@ -257,22 +219,6 @@ alias videos='cd /mnt/c/Users/Thirvan/Videos'
 
 #change directory to ubuntuShortcuts
 alias short='cd /home/thirvan/ubuntuShortcuts'
-
-#change directory to recordings
-alias rec='cd ~/one/ctc/recordings'
-
-#change directory to dpp recordings
-alias recdpp='cd ~/one/CTC/recordings/DPP'
-
-#change directory to usp recordings
-alias recusp='cd ~/one/CTC/recordings/USP'
-
-#change directory to os recordings
-alias recos='cd ~/one/CTC/recordings/OS'
-
-#
-#change directory to One Pace
-alias pace='cd /mnt/c/Users/Thirvan/Videos/One\ Pace'
 
 #####################
 
@@ -291,18 +237,8 @@ alias conf='cd ~/ubuntuConfig'
 #show laptop battery percentage
 alias battery='cat /sys/class/power_supply/BAT1/capacity'
 
-#open screenshots folder in file explorer
-#alias screen='cd /mnt/c/Users/Thirvan/Onedrive/Pictures/Screenshots; exp; cd -'
-alias screen='cd "/mnt/c/Users/Thirvan/OneDrive - Curtin University of Technology Australia/Pictures/Screenshots"; exp; cd -'
-
 #open notepad
 alias note='notepad.exe'
-
-#open Google Keep pwa
-alias keep='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Keep.lnk &> /dev/null'
-
-#open Google TasksBoard pwa
-alias tasks='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\TasksBoard.lnk &> /dev/null'
 
 #open Google Calendar pwa
 alias cal='cmd.exe /c start C:\\Users\\Thirvan\\Desktop\\Calendar.lnk &> /dev/null'
@@ -334,28 +270,12 @@ alias cprogh='cp -r ~/ubuntuConfig/templates/cprogdir .'
 #create a directory containing a UCP Makefile and a basic C program
 alias ucpcprogh='cp -r ~/ubuntuConfig/templates/ucpcprogdir .'
 
-#start mysql then login in mysql using password as current user
-alias sql='sudo service mysql start; sudo cat ~/.dbsthirvanpass | clip.exe; mysql -u $(whoami) -p'
-
 #open using wsl utility
 alias open='wslview'
 
-#open cisco packet tracer
-alias pt='"/mnt/c/Program Files/Cisco Packet Tracer 7.3.1/bin/PacketTracer7.exe"'
-
-#change directory to archive
-alias archive='cd ~/one/CTC/archive'
-
 alias ghost='\gs'
 
-alias it='cd /home/thirvan/one/iTelligence'
-
 alias port="cd ~/portfolio"
-
-alias bst="cd ~/one/CTC/BST"
-alias ccp="cd ~/one/CTC/CCP2"
-alias em="cd ~/one/CTC/EM"
-alias acc="cd ~/one/CTC/ACC"
 
 alias comp='gcc -Wall -ansi -pedantic -Werror -g'
 alias val='valgrind --leak-check=full --track-origins=yes'
@@ -364,11 +284,6 @@ alias dr='dotnet run'
 
 alias repos='cd ~/repos'
 alias mainfo='cd ~/repos/ma_info_cvms'
-
-alias ccpdrive='cd /mnt/c/Users/Thirvan/My\ Drive/Capstone-INFO_CVMS'
-alias accw='cd ~/unix/accw'
-alias acca='cd ~/unix/acca'
-alias sshvm='ssh thirvanvm@ubuntu2204'
 
 alias gitignorefile='~/ubuntuConfig/gitignorefile.sh'
 alias ns='netstat -a | grep 50150'
