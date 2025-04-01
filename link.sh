@@ -3,7 +3,7 @@
 mkdir ~/configBAK
 
 #move existing config files to configBAK
- ~/.bashrc ~/configBAK/.bashrc.bak
+mv ~/.bashrc ~/configBAK/.bashrc.bak
 mv ~/.bash_aliases ~/configBAK/.bash_aliases.bak
 mv ~/.tmp_aliases ~/configBAK/.tmp_aliases.bak
 mv ~/.bash_profile ~/configBAK/.bash_profile.bak
