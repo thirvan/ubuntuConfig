@@ -387,7 +387,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # posh-git-bash prompt
 source ~/utils/ubuntuConfig/utils/git-prompt.sh
-PROMPT_COMMAND='__posh_git_ps1 "\[\e[90m\]\$(date \"+%H:%M:%S %d/%m\") \[\e[32m\]\u@\h\[\e[00m\]:\[\e[94m\]\w\[\e[91m\] " "\[\033[00m\]\$"'
+PROMPT_COMMAND='__posh_git_ps1 "\[\e[90m\]\$(date \"+%H:%M:%S %d/%m\") \[\e[32m\]\u@\h\[\e[00m\]:\[\e[94m\]\w\[\e[91m\]" "\[\033[00m\]\$"'
 
 EDITOR="/usr/bin/vim"
 

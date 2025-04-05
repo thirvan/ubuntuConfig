@@ -168,7 +168,7 @@ __posh_git_echo () {
     local DefaultForegroundColor=$(__posh_color '\e[m') # Default no color
     local DefaultBackgroundColor=
 
-    local BeforeText='['
+    local BeforeText=' ['
     local BeforeForegroundColor=$(__posh_color $BrightYellow) # Yellow
     local BeforeBackgroundColor=
     local DelimText=' |'
