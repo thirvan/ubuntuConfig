@@ -63,7 +63,7 @@ alias gch='git checkout'
 alias gbr='git branch'
 
 #push
-alias gpush='tok; git push'
+alias gpush='git push'
 alias vmgpush='vmtok; git push'
 
 #push
@@ -79,7 +79,7 @@ alias gm='git merge'
 alias gpull='git pull'
 
 #clone
-alias gcl='tok; git clone'
+alias gcl='git clone'
 alias vmgcl='vmtok; git clone'
 
 #diff
@@ -223,16 +223,16 @@ alias short='cd /home/thirvan/ubuntuShortcuts'
 #####################
 
 #open this config file in vim
-alias vimconf='vim ~/ubuntuConfig/.bash_aliases'
+alias vimconf='vim ~/utils/ubuntuConfig/.bash_aliases'
 
-#open ~/ubuntuConfig/.bashrc
-alias vimfunc='vim ~/ubuntuConfig/.bashrc'
+#open ~/utils/ubuntuConfig/.bashrc
+alias vimfunc='vim ~/utils/ubuntuConfig/.bashrc'
 
-#open ~/ubuntuConfig/.vimrc
-alias vimrc='vim ~/ubuntuConfig/.vimrc'
+#open ~/utils/ubuntuConfig/.vimrc
+alias vimrc='vim ~/utils/ubuntuConfig/.vimrc'
 
 #change directory to ubuntuConfig
-alias conf='cd ~/ubuntuConfig'
+alias conf='cd ~/utils/ubuntuConfig'
 
 #show laptop battery percentage
 alias battery='cat /sys/class/power_supply/BAT1/capacity'
@@ -259,16 +259,16 @@ alias virtual='/mnt/c/Program\ Files/Oracle/VirtualBox/VirtualBoxVM.exe --startv
 alias speed='speedtest'
 
 #create a template of a make file in the current directory
-alias makeh='cp ~/ubuntuConfig/templates/makedir/make makeh'
+alias makeh='cp ~/utils/ubuntuConfig/templates/makedir/make makeh'
 
 #create a template of a UCP make file in the current directory
-alias ucpmakeh='cp ~/ubuntuConfig/templates/makedir/ucpmake ucpmakeh'
+alias ucpmakeh='cp ~/utils/ubuntuConfig/templates/makedir/ucpmake ucpmakeh'
 
 #create a directory containing a Makefile and a basic C program
-alias cprogh='cp -r ~/ubuntuConfig/templates/cprogdir .'
+alias cprogh='cp -r ~/utils/ubuntuConfig/templates/cprogdir .'
 
 #create a directory containing a UCP Makefile and a basic C program
-alias ucpcprogh='cp -r ~/ubuntuConfig/templates/ucpcprogdir .'
+alias ucpcprogh='cp -r ~/utils/ubuntuConfig/templates/ucpcprogdir .'
 
 #open using wsl utility
 alias open='wslview'
@@ -285,7 +285,7 @@ alias dr='dotnet run'
 alias repos='cd ~/repos'
 alias mainfo='cd ~/repos/ma_info_cvms'
 
-alias gitignorefile='~/ubuntuConfig/gitignorefile.sh'
+alias gitignorefile='~/utils/ubuntuConfig/gitignorefile.sh'
 alias ns='netstat -a | grep 50150'
 alias lsofs='lsof -i | grep 50150'
 alias renamepdftitle='echo exiftool -Title=\"This is the Title\" -Author=\"Happy Man\" -Subject=\"PDF Metadata\" drawing.pdf'
