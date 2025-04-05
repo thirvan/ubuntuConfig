@@ -1,13 +1,13 @@
 #! /bin/bash
 
-mkdir ~/configBAK
+mkdir ~/backups/configBAK
 
 #move existing config files to configBAK
-mv ~/.bashrc ~/configBAK/.bashrc.bak
-mv ~/.bash_aliases ~/configBAK/.bash_aliases.bak
-mv ~/.tmp_aliases ~/configBAK/.tmp_aliases.bak
-mv ~/.bash_profile ~/configBAK/.bash_profile.bak
-mv ~/.vimrc ~/configBAK/.vimrc.bak
+mv ~/.bashrc ~/backups/configBAK/.bashrc.bak
+mv ~/.bash_aliases ~/backups/configBAK/.bash_aliases.bak
+mv ~/.tmp_aliases ~/backups/configBAK/.tmp_aliases.bak
+mv ~/.bash_profile ~/backups/configBAK/.bash_profile.bak
+mv ~/.vimrc ~/backups/configBAK/.vimrc.bak
 
 ln -s $(pwd)/.bashrc ~/.
 ln -s $(pwd)/.bash_aliases ~/.
