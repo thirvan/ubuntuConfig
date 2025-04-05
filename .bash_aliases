@@ -206,7 +206,7 @@ alias power='/mnt/c/Program\ Files/Microsoft\ Office/root/Office16/POWERPNT.EXE'
 #################
 
 #change directory to cs50
-alias cs='cd ~/cs50' 
+alias cs='cd ~/code/cs50' 
 
 #change directory to Downloads
 alias down='cd /mnt/c/Users/Thirvan/Downloads'
