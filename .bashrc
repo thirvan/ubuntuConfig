@@ -379,8 +379,38 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-#
-parse_git_branch() {
-     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
-export PS1="\[\e[32m\]\u@\h\[\e[00m\]:\[\e[94m\]\w\[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
+# original prompt
+# parse_git_branch() {
+#      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+# }
+# export PS1="\[\e[90m\]\$(date '+%H:%M:%S %d/%m') \[\e[32m\]\u@\h\[\e[00m\]:\[\e[94m\]\w\[\e[91m\] \$(parse_git_branch)\[\e[00m\]$"
+
+# posh-git-bash prompt
+source ~/utils/ubuntuConfig/utils/git-prompt.sh
+PROMPT_COMMAND='__posh_git_ps1 "\[\e[90m\]\$(date \"+%H:%M:%S %d/%m\") \[\e[32m\]\u@\h\[\e[00m\]:\[\e[94m\]\w\[\e[91m\] " "\[\033[00m\]\$"'
+
+EDITOR="/usr/bin/vim"
+
+
+# cache ssh passphrase
+env=~/.ssh/agent.env
+
+agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+
+agent_start () {
+    (umask 077; ssh-agent >| "$env")
+    . "$env" >| /dev/null ; }
+
+agent_load_env
+
+# agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+
+if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then
+    agent_start
+    ssh-add -t 1200
+elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
+    ssh-add -t 1200
+fi
+
+unset env
