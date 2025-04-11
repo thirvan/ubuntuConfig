@@ -350,7 +350,7 @@ function usdw()
 function csp()
 {
     cs;
-    cd pset$1;
+    cd psets/$1;
 }
 
 
